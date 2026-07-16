@@ -1,19 +1,50 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript and the archived software release."
+message: "Please cite this software repository and the associated manuscript when using these materials."
+
 title: "Explainable AI-Guided Bioink Design: Model-Derived Polymer-Pressure Relationships in Alginate-Hyaluronic Acid Bioinks"
+
 type: software
+
 authors:
   - family-names: "Arabinour"
     given-names: "Mahdi"
+    affiliation: "Department of Mechanical & Aerospace Engineering, University of Miami, Coral Gables, FL 33146, USA"
+
+  - family-names: "Sultani"
+    given-names: "Nargis"
+    affiliation: "College of Computing, Georgia Institute of Technology, Atlanta, GA 30332, USA"
+
+  - family-names: "Sotudeh"
+    given-names: "Nasser"
+    affiliation: "Independent Researcher, New Jersey, USA"
+
+  - family-names: "Ziebarth"
+    given-names: "Noel Marysa"
+    affiliation: "Department of Biomedical Engineering, University of Miami, Coral Gables, FL 33146, USA"
+
+  - family-names: "Zhou"
+    given-names: "Xiangyang"
+    affiliation: "Department of Mechanical & Aerospace Engineering, University of Miami, Coral Gables, FL 33146, USA"
+
+  - family-names: "Tayebi"
+    given-names: "Lobat"
+    affiliation: "Institute for Engineering in Medicine, Health, & Human Performance (EnMed), Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA 23529, USA"
+    email: "ltayebi@odu.edu"
+
 version: "1.0.0"
 date-released: "2026-07-16"
 license: "MIT"
+
+repository-code: "https://github.com/mahdi-arabinour/explainable-ai-bioink-design"
+
 keywords:
-  - bioink
-  - explainable artificial intelligence
-  - machine learning
-  - printability
-  - hyaluronic acid
-  - alginate
-  - SHAP
-  - leave-one-formulation-out validation
+  - "bioink"
+  - "explainable artificial intelligence"
+  - "machine learning"
+  - "3D bioprinting"
+  - "printability"
+  - "hyaluronic acid"
+  - "alginate"
+  - "SHAP"
+  - "permutation importance"
+  - "leave-one-formulation-out validation"
