@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+xgboost
+shap
+openpyxl
+joblib
+ipython
+jupyterlab
+nbformat

@@ -1,0 +1,9 @@
+Target,Validation,Best_core_model,Core_N_features,Core_R2,Core_MAE,Core_RMSE,Core_Spearman,Best_engineered_model,Engineered_N_features,Engineered_R2,Engineered_MAE,Engineered_RMSE,Engineered_Spearman,Delta_R2_engineered_minus_core,Delta_RMSE_core_minus_engineered,Delta_Spearman_engineered_minus_core,Engineered_improved_RMSE,Engineered_improved_Spearman
+AF,LOFO,RandomForest,4,0.779,0.117,0.155,0.868,RandomForest,25,0.784,0.113,0.153,0.861,0.005,0.002,-0.006,True,False
+AF,Repeated_KFold,RandomForest,4,0.737,0.107,0.157,0.885,RandomForest,25,0.754,0.104,0.153,0.888,0.016,0.005,0.003,True,True
+Pr,LOFO,LinearRegression,3,0.043,0.069,0.095,0.493,SVR_RBF,17,-0.337,0.085,0.113,0.22,-0.38,-0.017,-0.273,False,False
+Pr,Repeated_KFold,RandomForest,3,-0.055,0.062,0.077,0.504,RandomForest,17,-0.021,0.059,0.075,0.575,0.034,0.002,0.071,True,True
+Qm,LOFO,SVR_RBF,3,-0.369,0.647,0.778,0.292,SVR_RBF,17,-0.423,0.641,0.793,0.18,-0.054,-0.015,-0.111,False,False
+Qm,Repeated_KFold,SVR_RBF,3,0.551,0.221,0.323,0.889,SVR_RBF,17,0.704,0.178,0.26,0.925,0.154,0.064,0.035,True,True
+SR,LOFO,SVR_RBF,3,-0.154,1.15,1.374,0.155,SVR_RBF,17,0.425,0.797,0.97,0.661,0.579,0.404,0.506,True,True
+SR,Repeated_KFold,LinearRegression,3,-0.17,0.977,1.201,0.467,SVR_RBF,17,0.009,0.803,1.108,0.512,0.179,0.093,0.044,True,True

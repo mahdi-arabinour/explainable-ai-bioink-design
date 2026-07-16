@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary/generated archives
+*.tmp
+*.log
+*~
+
+# Raw publisher documents are intentionally excluded
+data/source/*.pdf
+data/raw/

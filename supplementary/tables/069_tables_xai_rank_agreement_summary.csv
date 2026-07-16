@@ -1,0 +1,5 @@
+Target,N_features,Rank_agreement_Spearman,Top_consensus_feature,Top_consensus_score
+Pr,3,1.0,Alg_mg_ml,1.0
+SR,23,0.9048678309352337,P_over_TP,1.0
+Qm,17,0.7647058823529413,P_over_TP,1.0
+AF,25,0.9751937984496124,Angle_deg,1.0

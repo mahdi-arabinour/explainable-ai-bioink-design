@@ -1,0 +1,22 @@
+Feature_name,Symbol,Group,Definition,Unit,Used_for
+Alg_mg_ml,Alg,Original input,Alginate concentration,mg/mL,"Rheology, Pr, SR, Qm, AF"
+HA_mg_ml,HA,Original input,Hyaluronic acid concentration,mg/mL,"Rheology, Pr, SR, Qm, AF"
+Pressure_kPa,P,Original input,Extrusion pressure,kPa,"Pr, SR, Qm, AF"
+Angle_deg,theta,Original input,Printed angle,degree,AF
+TP,TP,Engineered composition feature,"Total polymer concentration, calculated as Alg + HA",mg/mL,"Rheology, Pr, SR, Qm, AF"
+TP_pct_wv,TP_percent,Engineered composition feature,Total polymer concentration converted to percent weight per volume,% w/v,"Rheology, Pr, SR, Qm, AF"
+HF,HF,Engineered composition feature,"Hyaluronic acid fraction, calculated as HA / (Alg + HA)",unitless,"Rheology, Pr, SR, Qm, AF"
+Alg_fraction_feature,AlgF,Engineered composition feature,"Alginate fraction, calculated as Alg / (Alg + HA)",unitless,"Rheology, Pr, SR, Qm, AF"
+Alg_HA_ratio_safe,Alg/HA,Engineered composition feature,Alginate-to-hyaluronic acid concentration ratio,unitless,"Rheology, Pr, SR, Qm, AF"
+P_over_TP,P/TP,Engineered process feature,Extrusion pressure normalized by total polymer concentration,kPa per mg/mL,"Pr, SR, Qm, AF"
+P_over_Alg,P/Alg,Engineered process feature,Extrusion pressure normalized by alginate concentration,kPa per mg/mL,"Pr, SR, Qm, AF"
+P_over_HA,P/HA,Engineered process feature,Extrusion pressure normalized by hyaluronic acid concentration,kPa per mg/mL,"Pr, SR, Qm, AF"
+Alg_x_HA,Alg x HA,Polymer interaction feature,Alginate and hyaluronic acid interaction term,(mg/mL)^2,"Rheology, Pr, SR, Qm, AF"
+Alg_x_P,Alg x P,Polymer-pressure interaction feature,Alginate and extrusion pressure interaction term,mg/mL x kPa,"Pr, SR, Qm, AF"
+HA_x_P,HA x P,Polymer-pressure interaction feature,Hyaluronic acid and extrusion pressure interaction term,mg/mL x kPa,"Pr, SR, Qm, AF"
+TP_x_P,TP x P,Polymer-pressure interaction feature,Total polymer concentration and extrusion pressure interaction term,mg/mL x kPa,"Pr, SR, Qm, AF"
+HF_x_P,HF x P,Composition-pressure interaction feature,Hyaluronic acid fraction and extrusion pressure interaction term,kPa,"Pr, SR, Qm, AF"
+Alg_fraction_x_HA_fraction,AlgF x HF,Composition interaction feature,Interaction between alginate fraction and hyaluronic acid fraction,unitless,"Rheology, Pr, SR, Qm, AF"
+sin_angle,sin(theta),Angle feature,Sine transformation of printing angle,unitless,AF
+cos_angle,cos(theta),Angle feature,Cosine transformation of printing angle,unitless,AF
+P_x_Angle,P x theta,Pressure-angle interaction feature,Extrusion pressure and printing angle interaction term,kPa x degree,AF

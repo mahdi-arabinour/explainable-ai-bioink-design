@@ -1,0 +1,10 @@
+{
+  "repository_name": "explainable-ai-bioink-design",
+  "version": "1.0.0-pre-release",
+  "created": "2026-07-16",
+  "source_manuscript_title": "Explainable AI-Guided Bioink Design: Model-Derived Polymer-Pressure Relationships in Alginate-Hyaluronic Acid Bioinks",
+  "file_count_excluding_summary": 149,
+  "raw_publisher_pdfs_included": false,
+  "main_notebook": "notebooks/01_analysis_from_curated_data.ipynb",
+  "source_data_doi": "10.1021/acsbiomaterials.2c01143"
+}

@@ -1,0 +1,34 @@
+Clean_cell_number,Original_cell_index_zero_based,Cell_type,Detected_marker,First_nonempty_line,Line_count,Status
+1,0,code,Cell 1:,# Cell 1: Setup environment and import required packages,32,kept
+2,1,code,Cell 2:,# Cell 2: Upload raw PDF files into the project folder,19,kept
+3,2,code,Cell 3:,# Cell 3: Extract text from supplementary PDF and locate tables,49,kept
+4,3,code,Cell 4:,"# Cell 4: Parse Table S1, S2, and S3 from extracted supplementary text",143,kept
+5,4,code,Cell 5:,# Cell 5: Basic quality control for parsed datasets,49,kept
+6,5,code,Cell 6:,# Cell 6: Harmonize units and create formulation labels,57,kept
+7,6,code,Cell 7:,# Cell 7: Create engineered features for machine learning,98,kept
+8,7,code,Cell 7b:,# Cell 7b: Rename ambiguous feature names before continuing,31,kept
+9,8,code,Cell 8:,# Cell 8: Create feature dictionary for manuscript table,187,kept
+10,9,code,Cell 9:,# Cell 9: Build master datasets by merging rheology descriptors with printability datasets,124,kept
+11,10,code,Cell 10:,# Cell 10: Build target-specific modeling datasets and feature sets,136,kept
+12,11,code,Cell 11:,# Cell 11: Baseline visual checks for modeling targets,120,kept
+13,12,code,Cell 12:,# Cell 12: Feature-target correlation analysis,89,kept
+14,13,code,Cell 13:,# Cell 13: Train and evaluate machine learning models with repeated K-fold cross-validation,203,kept
+15,14,code,Cell 14:,# Cell 14: Leave-one-formulation-out validation,168,kept
+16,15,code,Cell 15:,# Cell 15: Compare repeated K-fold and LOFO results and select final models for XAI,136,kept
+17,16,code,Cell 16:,# Cell 16: Train final selected models on the full target-specific datasets,163,kept
+18,17,code,Cell 17:,# Cell 17: XAI preparation and permutation importance for final models,101,kept
+19,18,code,Cell 18:,# Cell 18: SHAP analysis for final selected models,111,kept
+20,19,code,Cell 19:,# Cell 19: Compare permutation importance and SHAP feature importance,136,kept
+21,20,code,Cell 20:,# Cell 20: Extract XAI-guided design rules from consensus features,200,kept
+22,21,code,Cell 21-fix:,# Cell 21-fix: Redefine ML feature function with corrected feature name,44,kept
+23,22,code,Cell 21:,# Cell 21: Build an XAI-guided candidate screening within the experimentally supported design space,334,kept
+24,23,code,Cell 21b:,# Cell 21b: Angle-specific candidate ranking for the candidate screening,167,kept
+25,24,code,Cell 22:,# Cell 22: Generate final candidate screening figures for manuscript,327,kept
+26,25,code,Cell 23:,# Cell 23: Create final manuscript summary package,226,kept
+27,26,code,,# Install required package,296,kept
+28,27,code,Cell 24B:,# Cell 24B: Restore project data files from uploaded ZIP or table files,107,kept
+29,28,code,Cell 24C:,# Cell 24C: Rename and restore modeling datasets from numbered supplementary files,50,kept
+30,29,code,Cell 24D:,# Cell 24D: Verify restored modeling datasets before sensitivity analysis,57,kept
+31,30,code,Cell 24E:,# Cell 24E: Engineered-feature ablation sensitivity analysis,300,kept
+32,31,code,Cell 24F:,# Cell 24F: Create clean ablation summary table and figure,109,kept
+33,32,code,Cell 24G:,# Cell 24G: Package engineered-feature ablation outputs for manuscript update,33,kept

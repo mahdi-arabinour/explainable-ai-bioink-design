@@ -1,0 +1,5 @@
+Target,Target_column,Final_model,Final_feature_set,N,N_features,Full_fit_R2,Full_fit_MAE,Full_fit_RMSE,Full_fit_Spearman,Model_file
+Pr,Pr_mean,LinearRegression,core,40,3,0.44372134439728794,0.05253511333579823,0.07274553063568878,0.6946242642446696,/content/bioink_xai_project/results/models/final_model_Pr_LinearRegression_core.joblib
+SR,SR_mean,SVR_RBF,rheology_enhanced,43,23,0.7256985383781283,0.3971519114674256,0.669795046023012,0.8391724554515252,/content/bioink_xai_project/results/models/final_model_SR_SVR_RBF_rheology_enhanced.joblib
+Qm,Qm_mean_mg_s,SVR_RBF,engineered,40,17,0.97939359884012,0.06740114000900173,0.09540035829675454,0.9874296435272046,/content/bioink_xai_project/results/models/final_model_Qm_SVR_RBF_engineered.joblib
+AF,AF_mean,XGBoost,angle_engineered,96,25,0.9556316777648264,0.04935812299291292,0.0695118524034917,0.9698519387902048,/content/bioink_xai_project/results/models/final_model_AF_XGBoost_angle_engineered.joblib

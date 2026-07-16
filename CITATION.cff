@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the archived software release."
+title: "Explainable AI-Guided Bioink Design: Model-Derived Polymer-Pressure Relationships in Alginate-Hyaluronic Acid Bioinks"
+type: software
+authors:
+  - family-names: "Arabinour"
+    given-names: "Mahdi"
+version: "1.0.0"
+date-released: "2026-07-16"
+license: "MIT"
+keywords:
+  - bioink
+  - explainable artificial intelligence
+  - machine learning
+  - printability
+  - hyaluronic acid
+  - alginate
+  - SHAP
+  - leave-one-formulation-out validation
