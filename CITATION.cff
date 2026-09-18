@@ -10,13 +10,13 @@ authors:
     given-names: "Mahdi"
     affiliation: "Department of Mechanical & Aerospace Engineering, University of Miami, Coral Gables, FL 33146, USA"
 
-  - family-names: "Sultani"
-    given-names: "Nargis"
-    affiliation: "College of Computing, Georgia Institute of Technology, Atlanta, GA 30332, USA"
-
   - family-names: "Sotudeh"
     given-names: "Nasser"
     affiliation: "Z2A LLC, Princeton, NJ 08542, USA"
+
+  - family-names: "Sultani"
+    given-names: "Nargis"
+    affiliation: "College of Computing, Georgia Institute of Technology, Atlanta, GA 30332, USA"
 
   - family-names: "Zhou"
     given-names: "Xiangyang"
@@ -24,11 +24,11 @@ authors:
 
   - family-names: "Tayebi"
     given-names: "Lobat"
-    affiliation: "Institute for Engineering in Medicine, Health, & Human Performance (EnMed), Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA 23529, USA"
+    affiliation: "Institute for Engineering in Medicine, Health, & Human Performance (EnMed) and Department of Electrical and Computer Engineering, Biomedical Engineering Program, Batten College of Engineering and Technology, Old Dominion University, Norfolk, VA 23529, USA"
     email: "ltayebi@odu.edu"
 
-version: "1.0.0"
-date-released: "2026-07-16"
+version: "1.0.1"
+date-released: "2026-09-18"
 license: "MIT"
 
 repository-code: "https://github.com/mahdi-arabinour/explainable-ai-bioink-design"
