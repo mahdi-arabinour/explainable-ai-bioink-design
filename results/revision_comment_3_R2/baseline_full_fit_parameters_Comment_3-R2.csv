@@ -1,0 +1,5 @@
+Target,Baseline,Predictor,Intercept_or_a,Slope_or_b,Equation_form,Angle_means_full_data
+AF,AF: angle-only linear,Angle_deg,2.5873324868421053,-0.011958613596491228,y = intercept + slope*x,
+AF,AF: angle-only categorical mean,Angle_deg,,,training mean by angle level,60 deg: 1.915905; 90 deg: 1.430402; 120 deg: 1.188146
+Qm,Qm: P/TP linear,P_over_TP,0.1317275539388556,1.0494019064544151,y = intercept + slope*x,
+Qm,Qm: P/TP power law,P_over_TP,1.056059187509056,1.1256978853347888,y = a*x^b,

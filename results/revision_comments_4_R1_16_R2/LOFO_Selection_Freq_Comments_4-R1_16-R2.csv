@@ -1,0 +1,17 @@
+Target,Selected_feature_set,Selected_model,Count,Frequency
+AF,angle_engineered,RandomForest,3,0.375
+AF,angle_rheology_enhanced,RandomForest,2,0.25
+AF,angle_engineered,XGBoost,1,0.125
+AF,angle_rheology_enhanced,GradientBoosting,1,0.125
+AF,angle_rheology_enhanced,XGBoost,1,0.125
+Pr,rheology_enhanced,RandomForest,4,0.5
+Pr,core,LinearRegression,2,0.25
+Pr,core,XGBoost,1,0.125
+Pr,engineered,RandomForest,1,0.125
+Qm,core,LinearRegression,3,0.375
+Qm,core,RandomForest,2,0.25
+Qm,core,SVR_RBF,1,0.125
+Qm,engineered,XGBoost,1,0.125
+Qm,rheology_enhanced,SVR_RBF,1,0.125
+SR,rheology_enhanced,SVR_RBF,7,0.875
+SR,engineered,SVR_RBF,1,0.125

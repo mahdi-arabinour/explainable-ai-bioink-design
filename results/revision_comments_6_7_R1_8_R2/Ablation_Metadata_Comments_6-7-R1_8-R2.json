@@ -1,0 +1,16 @@
+{
+  "comments": [
+    "6-R1",
+    "7-R1",
+    "8-R2"
+  ],
+  "seed": 42,
+  "repeated_validation": "5-fold x 20 repeats; split-wise metrics averaged",
+  "lofo_validation": "LeaveOneGroupOut by formulation; pooled predictions",
+  "model_identity": "Model identities were preserved from the submitted Table S19 comparison and re-run after duplicate-feature cleanup. Six of eight target-validation comparisons use the same algorithm for core and engineered representations; Pr LOFO and SR repeated K-fold use different submitted algorithms and are not interpreted as pure feature-ablation effects.",
+  "delta_R2": "Engineered R2 - Core R2",
+  "delta_MAE": "Core MAE - Engineered MAE; positive means lower error for engineered",
+  "delta_RMSE": "Core RMSE - Engineered RMSE; positive means lower error for engineered",
+  "delta_Spearman": "Engineered Spearman - Core Spearman",
+  "table2_vs_s19": "Table 2 = nested selection-aware performance. Table S19 = submitted core-versus-engineered representation comparison after duplicate-feature cleanup; same-algorithm rows are representation sensitivity, while different-algorithm rows are combined model-plus-representation comparisons."
+}

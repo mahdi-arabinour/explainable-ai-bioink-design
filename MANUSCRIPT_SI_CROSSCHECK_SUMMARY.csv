@@ -1,0 +1,24 @@
+Item,Status,Result,Notes
+Canonical data preparation,PASS,40 Pr; 43 SR; 40 Qm; 96 AF,Regenerated from S1-S3 curated source tables
+Nested repeated CV,PASS,Pr -0.083; SR -0.074; Qm 0.762; AF 0.712,Primary fold-wise Table 2 convention
+Repeat-pooled R2,PASS,Pr 0.321; SR 0.033; Qm 0.846; AF 0.742,"Complementary aggregation, Table S26"
+Nested LOFO,PASS,Pr -0.348; SR 0.393; Qm -1.458; AF 0.762,Pooled across held-out formulations
+SR LOFO uncertainty,PASS,95% bootstrap interval 0.179-0.537,"10,000 evaluation-stage formulation-block resamples"
+AF categorical baseline,PASS,0.793 vs nested 0.742,Repeat-pooled; baseline lower RMSE in 20/20 exactly matched repetitions
+Qm power-law baseline,PASS,-0.027 vs nested 0.846,Repeat-pooled; nested lower RMSE in 20/20 exactly matched repetitions
+Dimensionless Pi_y sensitivity,PASS,Qm power law -0.254 repeated; -0.179 LOFO,Sensitivity control; no positive standalone R2
+XAI rank agreement,PASS,SR 0.693; Qm 0.895; AF 0.381; Pr excluded,Permutation and SHAP kept separate
+Measured-domain screen,PASS,34 jointly observed; 14 strict; 21 relaxed; 7 additional,No within-set ranking
+Bootstrap ranking sensitivity,PASS,49.1% rank 1; 63.3% top 3; 0/16 separated,Retrospective historical ranking sensitivity
+Table 2 / S19 reconciliation,PASS,8/8 target-validation combinations reconciled,S27 uses primary fold-wise Table 2 R2
+Manuscript Tables 1-5,PASS,Table 1 corrected; Tables 2-5 matched clean outputs,Table 1 SR max 7.511; Qm max 3.336
+Manuscript narrative,PASS,48/48 targeted claims,"Includes methods, performance, uncertainty, XAI, screening"
+Manuscript Figure 3,PASS AFTER CORRECTION,Regenerated from current reference models,Legacy heatmap replaced; active generator added
+Supplementary Tables,PASS WITH OPTIONAL EXEMPTION,705 PASS; 0 FAIL; 3 EXEMPT,Only S24 external publisher-PDF mismatch checks exempt
+Supplementary Figures S1-S9,PASS,S1-S2 active direct generator added; S3-S9 active clean paths,Final SI rendered and checked
+Response to Reviewers,PASS,105/105 targeted claims,Cross-checked against clean outputs
+Master Runner clean-room,PASS,Stage 9 certification: 46/46 checks,Final release recertification required after new descriptive-figure generator integration
+Master Notebook clean-room,PASS,"19/19 cells, 0 errors",Final release recertification required after new descriptive-figure generator integration
+Runner vs Notebook outputs,PASS,62/62 common CSVs exact SHA-256,Stage 9 certification
+Optional source provenance,EXEMPT-OPTIONAL,Table S24 publisher-PDF cell audit not rerun,Core clean-room not blocked by project rule
+Graphical Abstract / TOC,OUT OF SCOPE,Pending separately,Explicitly excluded from workflow

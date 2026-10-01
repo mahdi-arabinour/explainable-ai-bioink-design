@@ -1,0 +1,13 @@
+{
+  "comment": "8-R2",
+  "purpose": "Consistency audit of the already-generated Table S27 reconciliation; no model fitting is performed.",
+  "rows_checked": 8,
+  "rows_passed": 8,
+  "mismatches": 0,
+  "same_algorithm_rows": 6,
+  "different_algorithm_rows": 2,
+  "status": "PASS",
+  "table_s27_sha256": "fc1804368cc1311e02dae2e258e1b66d2ffb2474488d8682bda81a9585216354",
+  "interpretation": "Table 2 and Table S19 are non-equivalent analyses. Six S19 rows hold the algorithm constant; Pr-LOFO and SR-repeated do not and are not interpreted as pure feature effects.",
+  "new_model_fitting": false
+}

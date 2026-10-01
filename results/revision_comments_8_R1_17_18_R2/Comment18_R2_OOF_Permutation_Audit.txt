@@ -1,0 +1,23 @@
+PASS: Permutation uses held-out Xte/yte
+PASS: Permutation scoring is held-out RMSE
+PASS: Repeated XAI uses 5 repeats
+PASS: Ten permutations per held-out fold
+PASS: SHAP explainer seed fixed
+PASS: Repeated label is Repeated5x5 -- ['Repeated5x5']
+PASS: Repeated has 25 held-out folds per target -- [np.int64(25)]
+PASS: Repeated detail has 10 permutations per target/fold/feature -- [10]
+PASS: LOFO uses held-out formulation labels -- 0
+PASS: LOFO has 8 folds per target -- [np.int64(8)]
+PASS: Pr top OOF permutation feature -- Alg_mg_ml
+PASS: SR top OOF permutation feature -- P_over_TP
+PASS: Qm top OOF permutation feature -- P_over_TP
+PASS: AF top OOF permutation feature -- Angle_deg
+PASS: Active Figure S5 matches generated OOF figure
+PASS: Active Table S22 matches generated XAI workbook
+PASS: Workbook states held-out permutation method -- Feature shuffling performed only in held-out test fold; delta RMSE = permuted RMSE - baseline test RMSE
+PASS: Workbook records 5x5 repeated XAI -- 5 folds x 5 repeats
+PASS: Workbook records 10 permutations -- 10
+PASS: Workbook records SHAP seed 42 -- 42
+PASS: JSON metadata says held-out permutation -- ['OOF permutation is computed only on held-out test observations.', 'SHAP is reported separately and is not averaged with permutation importance.', 'Pr attribution is descriptive only because nested R2 is negative.']
+PASS: JSON metadata records SHAP seed -- 42
+PASS: No superseded in-sample XAI files in active supplementary/tables -- []

@@ -1,0 +1,4 @@
+Target,N_features,Spearman_rank_agreement,Interpretation
+SR,20,0.6932330827067669,Descriptive cross-method rank agreement; not a stability or performance estimate.
+Qm,14,0.8945054945054945,Descriptive cross-method rank agreement; not a stability or performance estimate.
+AF,19,0.3806204333703354,Descriptive cross-method rank agreement; not a stability or performance estimate.

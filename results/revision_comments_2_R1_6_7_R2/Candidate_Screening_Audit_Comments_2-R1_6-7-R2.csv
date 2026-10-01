@@ -1,0 +1,9 @@
+Item,Value
+Jointly observed formulation-pressure conditions,34
+Conditions with measured Pr available,34
+Candidate-set conditions (measured Pr 0.95-1.05 AND measured AF 1.00-1.25),14
+Relaxed sensitivity-set conditions (measured Pr 0.90-1.10 AND measured AF 1.00-1.25),21
+Candidate-set conditions also satisfying source Qm>0 and SR<6,14
+Within-set rank calculated,No
+Predicted Pr used as a screening gate,No
+Predicted AF used as a screening gate,No

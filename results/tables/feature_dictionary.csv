@@ -1,0 +1,82 @@
+Feature_set,Feature_name,Unit
+core,Alg_mg_ml,mg/mL
+core,HA_mg_ml,mg/mL
+core,Pressure_kPa,kPa
+engineered,Alg_mg_ml,mg/mL
+engineered,HA_mg_ml,mg/mL
+engineered,Pressure_kPa,kPa
+engineered,TP,mg/mL
+engineered,HF,dimensionless
+engineered,Alg_HA_ratio_safe,dimensionless
+engineered,P_over_TP,kPa mL/mg
+engineered,P_over_Alg,kPa mL/mg
+engineered,P_over_HA,kPa mL/mg
+engineered,Alg_x_HA,(mg/mL)^2
+engineered,Alg_x_P,mg/mL x kPa
+engineered,HA_x_P,mg/mL x kPa
+engineered,TP_x_P,mg/mL x kPa
+engineered,HF_x_P,kPa
+rheology_enhanced,Alg_mg_ml,mg/mL
+rheology_enhanced,HA_mg_ml,mg/mL
+rheology_enhanced,Pressure_kPa,kPa
+rheology_enhanced,TP,mg/mL
+rheology_enhanced,HF,dimensionless
+rheology_enhanced,Alg_HA_ratio_safe,dimensionless
+rheology_enhanced,P_over_TP,kPa mL/mg
+rheology_enhanced,P_over_Alg,kPa mL/mg
+rheology_enhanced,P_over_HA,kPa mL/mg
+rheology_enhanced,Alg_x_HA,(mg/mL)^2
+rheology_enhanced,Alg_x_P,mg/mL x kPa
+rheology_enhanced,HA_x_P,mg/mL x kPa
+rheology_enhanced,TP_x_P,mg/mL x kPa
+rheology_enhanced,HF_x_P,kPa
+rheology_enhanced,Eta0_mean_Pa_s,Pa s
+rheology_enhanced,Cross_m_mean,dimensionless
+rheology_enhanced,Cross_k_mean_s,s
+rheology_enhanced,G_prime_mean_Pa,Pa
+rheology_enhanced,G_double_prime_mean_Pa,Pa
+rheology_enhanced,Yield_stress_mean_Pa,Pa
+angle_engineered,Alg_mg_ml,mg/mL
+angle_engineered,HA_mg_ml,mg/mL
+angle_engineered,Pressure_kPa,kPa
+angle_engineered,TP,mg/mL
+angle_engineered,HF,dimensionless
+angle_engineered,Alg_HA_ratio_safe,dimensionless
+angle_engineered,P_over_TP,kPa mL/mg
+angle_engineered,P_over_Alg,kPa mL/mg
+angle_engineered,P_over_HA,kPa mL/mg
+angle_engineered,Alg_x_HA,(mg/mL)^2
+angle_engineered,Alg_x_P,mg/mL x kPa
+angle_engineered,HA_x_P,mg/mL x kPa
+angle_engineered,TP_x_P,mg/mL x kPa
+angle_engineered,HF_x_P,kPa
+angle_engineered,Angle_deg,degree
+angle_engineered,P_x_Angle,kPa x degree
+angle_engineered,Alg_x_Angle,mg/mL x degree
+angle_engineered,HA_x_Angle,mg/mL x degree
+angle_engineered,TP_x_Angle,mg/mL x degree
+angle_rheology_enhanced,Alg_mg_ml,mg/mL
+angle_rheology_enhanced,HA_mg_ml,mg/mL
+angle_rheology_enhanced,Pressure_kPa,kPa
+angle_rheology_enhanced,TP,mg/mL
+angle_rheology_enhanced,HF,dimensionless
+angle_rheology_enhanced,Alg_HA_ratio_safe,dimensionless
+angle_rheology_enhanced,P_over_TP,kPa mL/mg
+angle_rheology_enhanced,P_over_Alg,kPa mL/mg
+angle_rheology_enhanced,P_over_HA,kPa mL/mg
+angle_rheology_enhanced,Alg_x_HA,(mg/mL)^2
+angle_rheology_enhanced,Alg_x_P,mg/mL x kPa
+angle_rheology_enhanced,HA_x_P,mg/mL x kPa
+angle_rheology_enhanced,TP_x_P,mg/mL x kPa
+angle_rheology_enhanced,HF_x_P,kPa
+angle_rheology_enhanced,Angle_deg,degree
+angle_rheology_enhanced,P_x_Angle,kPa x degree
+angle_rheology_enhanced,Alg_x_Angle,mg/mL x degree
+angle_rheology_enhanced,HA_x_Angle,mg/mL x degree
+angle_rheology_enhanced,TP_x_Angle,mg/mL x degree
+angle_rheology_enhanced,Eta0_mean_Pa_s,Pa s
+angle_rheology_enhanced,Cross_m_mean,dimensionless
+angle_rheology_enhanced,Cross_k_mean_s,s
+angle_rheology_enhanced,G_prime_mean_Pa,Pa
+angle_rheology_enhanced,G_double_prime_mean_Pa,Pa
+angle_rheology_enhanced,Yield_stress_mean_Pa,Pa

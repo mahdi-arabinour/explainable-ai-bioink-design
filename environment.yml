@@ -1,18 +1,21 @@
-name: explainable-ai-bioink-design
+name: explainable-ai-bioink-design-cleanroom
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
-  - numpy
-  - pandas
-  - scipy
-  - matplotlib
-  - scikit-learn
-  - xgboost
-  - shap
-  - openpyxl
-  - joblib
-  - ipython
-  - jupyterlab
-  - nbformat
+  - python=3.13.5
+  - numpy=2.3.5
+  - pandas=2.2.3
+  - scipy=1.17.0
+  - matplotlib=3.10.8
+  - scikit-learn=1.8.0
+  - xgboost=3.1.3
+  - shap=0.50.0
+  - openpyxl=3.1.5
+  - joblib=1.5.3
+  - ipython=9.14.0
+  - jupyterlab=4.5.3
+  - nbformat=5.10.4
+  - nbclient=0.10.4
+  - pdfplumber=0.11.9
+  - pillow=12.3.0
   - pip

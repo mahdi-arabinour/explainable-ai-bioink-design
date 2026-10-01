@@ -1,0 +1,24 @@
+{
+  "comment": "6-R1",
+  "purpose": "Explicitly reconcile Table 2 nested performance with Table S19 representation sensitivity without treating non-equivalent analyses as duplicate estimates.",
+  "table2_definition": "Selection-aware nested outer-test performance; algorithm and feature set are selected only within training data.",
+  "tableS19_definition": "Continuity analysis preserving the submitted S19 core/engineered model identities after duplicate-feature cleanup.",
+  "same_algorithm_rows": 6,
+  "different_algorithm_rows": 2,
+  "different_algorithm_comparisons": [
+    {
+      "Target": "Pr",
+      "Validation": "LOFO",
+      "TableS19_core_model": "LinearRegression",
+      "TableS19_engineered_model": "SVR_RBF"
+    },
+    {
+      "Target": "SR",
+      "Validation": "Repeated_KFold",
+      "TableS19_core_model": "LinearRegression",
+      "TableS19_engineered_model": "SVR_RBF"
+    }
+  ],
+  "interpretation_rule": "Only same-algorithm S19 rows are interpreted as feature-representation sensitivity. Rows with different algorithms are descriptive continuity comparisons and are not used to attribute performance changes solely to engineered descriptors.",
+  "new_model_fitting": false
+}

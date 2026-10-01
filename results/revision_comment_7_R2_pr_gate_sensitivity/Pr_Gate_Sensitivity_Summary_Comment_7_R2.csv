@@ -1,0 +1,3 @@
+Screening_definition,Measured_Pr_interval,Measured_AF_requirement,N_conditions,Predicted_Pr_used,Interpretation
+Main strict measured-domain set,0.95-1.05,At least one measured AF in 1.00-1.25,14,No,Primary conservative operational set; not a validated acceptance boundary.
+Relaxed measured-Pr sensitivity set,0.90-1.10,At least one measured AF in 1.00-1.25,21,No,Threshold-sensitivity check only; not used to redefine the main set.

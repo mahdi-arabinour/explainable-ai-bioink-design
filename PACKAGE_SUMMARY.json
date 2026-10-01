@@ -1,10 +1,31 @@
 {
-  "repository_name": "explainable-ai-bioink-design",
-  "version": "1.0.0-pre-release",
-  "created": "2026-07-16",
-  "source_manuscript_title": "Explainable AI-Guided Bioink Design: Model-Derived Polymer-Pressure Relationships in Alginate-Hyaluronic Acid Bioinks",
-  "file_count_excluding_summary": 149,
-  "raw_publisher_pdfs_included": false,
-  "main_notebook": "notebooks/01_analysis_from_curated_data.ipynb",
-  "source_data_doi": "10.1021/acsbiomaterials.2c01143"
+  "package": "Explainable AI-Guided Bioink Design integrated clean-room release candidate",
+  "version": "1.0.1-stage12-certified",
+  "package_revision": "stage12-full-clean-room-certified",
+  "canonical_entry_point": "run_full_analysis.py",
+  "canonical_notebook": "notebooks/00_master_analysis.ipynb",
+  "starting_inputs": [
+    "data/processed/rheology_table_S1.csv",
+    "data/processed/printability_table_S2.csv",
+    "data/processed/angle_fidelity_table_S3.csv",
+    "archive/legacy_pre_revision_candidate_ranking/tables/029_tables_final_top_strict_design_candidates.csv"
+  ],
+  "generated_outputs_present_at_start": false,
+  "optional_external_provenance_pdf": true,
+  "graphical_abstract_in_scope": false,
+  "notes": "Stage 12 final clean-room certification complete. Stage 13 may create the final release ZIP without scientific changes.",
+  "manifest_file_count_excluding_manifest": 360,
+  "manifest_total_bytes_excluding_manifest": 22231621,
+  "certification": {
+    "status": "FULL CLEAN-ROOM PASS",
+    "runner_runtime_seconds": 688.126,
+    "runner_numerical_checks": "50/50 PASS",
+    "notebook_runtime_seconds": 692.43,
+    "notebook_code_cells": "19/19 PASS",
+    "runner_notebook_common_results": 112,
+    "runner_notebook_exact": 101,
+    "runner_notebook_semantic": 11,
+    "scientific_discrepancies": 0,
+    "optional_provenance": "SKIPPED-OPTIONAL"
+  }
 }

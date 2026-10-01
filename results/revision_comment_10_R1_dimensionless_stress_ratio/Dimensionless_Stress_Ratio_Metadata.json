@@ -1,0 +1,15 @@
+{
+  "comment": "Reviewer 1 Comment 10",
+  "purpose": "Test a defensible dimensionless stress-scale alternative before demoting P/TP.",
+  "dimensionless_descriptor": "P_over_Yield_dimless = Pressure_kPa*1000 / Yield_stress_mean_Pa",
+  "physical_interpretation": "Driving-pressure/yield-stress ratio. With fixed nozzle geometry across source experiments, a nominal capillary wall-stress/yield-stress ratio is a constant multiple of this descriptor.",
+  "caveat": "Not labeled as an exact in-nozzle wall shear stress because the archived dataset does not specify the internal conical radius-versus-length profile or the fraction of pneumatic pressure lost upstream of the nozzle.",
+  "cross_model_note": "Cross parameters are archived, but a defensible shear-rate-based Cross number would require additional flow/geometry assumptions not present in the curated source tables; no such assumptions were introduced.",
+  "validation": "Repeated 5-fold CV (20 repeats) and pooled LOFO, matching the simple-baseline framework used elsewhere in the revision.",
+  "random_seed": 42,
+  "multivariable_substitution": "Fixed SVR-RBF engineered representation sensitivity: P/TP replaced one-for-one by P/yield-stress; all other features and validation schemes unchanged.",
+  "key_Qm_single_descriptor": "Power-law P/yield R2 = -0.254 repeated and -0.179 LOFO versus P/TP = -0.490 and -0.455; improvement remained below zero.",
+  "key_Qm_multivariable_substitution": "P/TP engineered SVR R2 = 0.697 repeated and -0.558 LOFO versus P/yield = 0.674 and -0.880.",
+  "key_SR_multivariable_substitution": "P/TP engineered SVR R2 = 0.055 repeated and 0.390 LOFO versus P/yield = 0.027 and 0.196.",
+  "conclusion": "The dimensionless stress-scale descriptor does not support a transferable one-parameter physical rule and does not outperform P/TP when substituted into the duplicate-reduced engineered representation. P/TP is retained as a conditional empirical multivariable descriptor, not a physical law."
+}

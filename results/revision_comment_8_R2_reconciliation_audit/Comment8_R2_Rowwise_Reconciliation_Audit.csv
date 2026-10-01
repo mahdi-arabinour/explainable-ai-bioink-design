@@ -1,0 +1,9 @@
+Target,Validation,table2_r2_match,table2_selection_match,s19_core_model_match,s19_core_r2_match,s19_engineered_model_match,s19_engineered_r2_match,same_algorithm_flag_match,row_pass
+AF,LOFO,True,True,True,True,True,True,True,True
+AF,Repeated_KFold,True,True,True,True,True,True,True,True
+Pr,LOFO,True,True,True,True,True,True,True,True
+Pr,Repeated_KFold,True,True,True,True,True,True,True,True
+Qm,LOFO,True,True,True,True,True,True,True,True
+Qm,Repeated_KFold,True,True,True,True,True,True,True,True
+SR,LOFO,True,True,True,True,True,True,True,True
+SR,Repeated_KFold,True,True,True,True,True,True,True,True

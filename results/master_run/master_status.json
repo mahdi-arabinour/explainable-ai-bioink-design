@@ -1,0 +1,515 @@
+{
+  "start_time": 1790549906.512509,
+  "steps": [
+    {
+      "label": "P01 prepare canonical inputs",
+      "script": "src/prepare_canonical_inputs.py",
+      "status": "PASS",
+      "seconds": 2.766167163848877,
+      "log": "results/master_run/src__prepare_canonical_inputs.py.log"
+    },
+    {
+      "label": "P01b descriptive figures and manuscript heatmaps",
+      "script": "src/generate_descriptive_figures.py",
+      "status": "PASS",
+      "seconds": 4.628242254257202,
+      "log": "results/master_run/src__generate_descriptive_figures.py.log"
+    },
+    {
+      "label": "P02 simple baselines",
+      "script": "src/revision_comment_3_R2_baselines.py",
+      "status": "PASS",
+      "seconds": 2.0518431663513184,
+      "log": "results/master_run/src__revision_comment_3_R2_baselines.py.log"
+    },
+    {
+      "label": "P03 dimensionless stress ratio",
+      "script": "src/revision_comment_10_R1_dimensionless_stress_ratio.py",
+      "status": "PASS",
+      "seconds": 5.611530065536499,
+      "log": "results/master_run/src__revision_comment_10_R1_dimensionless_stress_ratio.py.log"
+    },
+    {
+      "label": "P04 nested validation",
+      "script": "src/revision_comments_4_R1_16_R2_nested_cv.py",
+      "status": "PASS",
+      "seconds": 588.8220255374908,
+      "log": "results/master_run/src__revision_comments_4_R1_16_R2_nested_cv.py.log"
+    },
+    {
+      "label": "P05 R2 aggregation",
+      "script": "src/revision_comments_4_R1_16_R2_r2_aggregation.py",
+      "status": "PASS",
+      "seconds": 0.5941627025604248,
+      "log": "results/master_run/src__revision_comments_4_R1_16_R2_r2_aggregation.py.log"
+    },
+    {
+      "label": "P06 baseline vs nested",
+      "script": "src/revision_comment_3_R2_baseline_contrast.py",
+      "status": "PASS",
+      "seconds": 2.008554220199585,
+      "log": "results/master_run/src__revision_comment_3_R2_baseline_contrast.py.log"
+    },
+    {
+      "label": "P07 LOFO uncertainty",
+      "script": "src/revision_comments_12_R1_9_R2_lofo_uncertainty.py",
+      "status": "PASS",
+      "seconds": 0.7167282104492188,
+      "log": "results/master_run/src__revision_comments_12_R1_9_R2_lofo_uncertainty.py.log"
+    },
+    {
+      "label": "P08 XAI",
+      "script": "src/revision_comments_8_R1_17_18_R2_xai.py",
+      "status": "PASS",
+      "seconds": 26.32114815711975,
+      "log": "results/master_run/src__revision_comments_8_R1_17_18_R2_xai.py.log"
+    },
+    {
+      "label": "P10 representation sensitivity",
+      "script": "src/revision_comments_6_7_R1_8_R2_ablation_selected.py",
+      "status": "PASS",
+      "seconds": 24.771539449691772,
+      "log": "results/master_run/src__revision_comments_6_7_R1_8_R2_ablation_selected.py.log"
+    },
+    {
+      "label": "P11 Table2-S19 reconciliation",
+      "script": "src/revision_comment_6_R1_reconciliation.py",
+      "status": "PASS",
+      "seconds": 0.5701637268066406,
+      "log": "results/master_run/src__revision_comment_6_R1_reconciliation.py.log"
+    },
+    {
+      "label": "P12 reconciliation audit",
+      "script": "src/revision_comment_8_R2_reconciliation_audit.py",
+      "status": "PASS",
+      "seconds": 0.6148419380187988,
+      "log": "results/master_run/src__revision_comment_8_R2_reconciliation_audit.py.log"
+    },
+    {
+      "label": "P13 candidate set",
+      "script": "src/revision_comments_2_R1_6_7_R2_candidate_set.py",
+      "status": "PASS",
+      "seconds": 1.3979942798614502,
+      "log": "results/master_run/src__revision_comments_2_R1_6_7_R2_candidate_set.py.log"
+    },
+    {
+      "label": "P14 Pr threshold sensitivity",
+      "script": "src/revision_comment_7_R2_pr_gate_sensitivity.py",
+      "status": "PASS",
+      "seconds": 0.5794141292572021,
+      "log": "results/master_run/src__revision_comment_7_R2_pr_gate_sensitivity.py.log"
+    },
+    {
+      "label": "P15 retrospective ranking bootstrap",
+      "script": "src/revision_comments_2_R1_6_R2_bootstrap_ranking.py",
+      "status": "PASS",
+      "seconds": 10.18189525604248,
+      "log": "results/master_run/src__revision_comments_2_R1_6_R2_bootstrap_ranking.py.log"
+    },
+    {
+      "label": "P16 final scientific assets",
+      "script": "src/finalize_revision_assets.py",
+      "status": "PASS",
+      "seconds": 13.750131607055664,
+      "log": "results/master_run/src__finalize_revision_assets.py.log"
+    },
+    {
+      "label": "P17 optional provenance",
+      "status": "SKIPPED-OPTIONAL"
+    },
+    {
+      "label": "P09a XAI final-artifact audit",
+      "script": "src/revision_comment_17_R2_xai_audit.py",
+      "status": "PASS",
+      "seconds": 0.6995227336883545,
+      "log": "results/master_run/src__revision_comment_17_R2_xai_audit.py.log"
+    },
+    {
+      "label": "P09b OOF permutation final-artifact audit",
+      "script": "src/revision_comment_18_R2_oof_permutation_audit.py",
+      "status": "PASS",
+      "seconds": 0.6474356651306152,
+      "log": "results/master_run/src__revision_comment_18_R2_oof_permutation_audit.py.log"
+    }
+  ],
+  "overall": "PASS",
+  "preflight": {
+    "status": "PASS",
+    "issues": [],
+    "source_hashes": {
+      "data/processed/rheology_table_S1.csv": "a2e37aee29e332144328114d0a3363adaade1983644046189ffcd928df5e1236",
+      "data/processed/printability_table_S2.csv": "2e415b3373434c8c1ba6ac2d37f3559bb9e8a5717923033513e13b3bb31412e1",
+      "data/processed/angle_fidelity_table_S3.csv": "d498ee609fa6ec34639a0ef0d0f30e6cde993e4b7f476211136a5ec7ac6e151e"
+    },
+    "historical_bootstrap_hash": "9dd2a5feda135a84032f3330178271b777c3dd5c9de330fa5fb4f8a79d07427e"
+  },
+  "numerical_validation": [
+    {
+      "check": "Nested repeated R2 Pr",
+      "actual": -0.0831518510888341,
+      "expected": -0.083,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested repeated R2 SR",
+      "actual": -0.07362613873721,
+      "expected": -0.074,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested repeated R2 Qm",
+      "actual": 0.7624001749986342,
+      "expected": 0.762,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested repeated R2 AF",
+      "actual": 0.7120623642228504,
+      "expected": 0.712,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Repeat-pooled R2 Pr",
+      "actual": 0.3212343662172722,
+      "expected": 0.321,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Repeat-pooled R2 SR",
+      "actual": 0.0331663735057536,
+      "expected": 0.033,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Repeat-pooled R2 Qm",
+      "actual": 0.8455619520403348,
+      "expected": 0.846,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Repeat-pooled R2 AF",
+      "actual": 0.7418599125382007,
+      "expected": 0.742,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested LOFO R2 Pr",
+      "actual": -0.347743978586553,
+      "expected": -0.348,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested LOFO R2 SR",
+      "actual": 0.3929835700307522,
+      "expected": 0.393,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested LOFO R2 Qm",
+      "actual": -1.4582603196393156,
+      "expected": -1.458,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested LOFO R2 AF",
+      "actual": 0.7623138806878467,
+      "expected": 0.762,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "SR bootstrap lower",
+      "actual": 0.179265972510569,
+      "expected": 0.179,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "SR bootstrap upper",
+      "actual": 0.5369577536694276,
+      "expected": 0.537,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Jointly observed",
+      "actual": 34,
+      "expected": 34,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Strict candidates",
+      "actual": 14,
+      "expected": 14,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Relaxed candidates",
+      "actual": 21,
+      "expected": 21,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Relaxed additional",
+      "actual": 7,
+      "expected": 7,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Bootstrap leader rank1",
+      "actual": 0.491,
+      "expected": 0.491,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Bootstrap leader top3",
+      "actual": 0.633,
+      "expected": 0.633,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Pairwise intervals separated",
+      "actual": 0,
+      "expected": 0,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Pairwise comparisons",
+      "actual": 16,
+      "expected": 16,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "AF categorical baseline repeat-pooled R2",
+      "actual": 0.7928570932553869,
+      "expected": 0.793,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested AF repeat-pooled R2",
+      "actual": 0.7418599125382007,
+      "expected": 0.742,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Qm power-law baseline repeat-pooled R2",
+      "actual": -0.0274234387320271,
+      "expected": -0.027,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Nested Qm repeat-pooled R2",
+      "actual": 0.8455619520403348,
+      "expected": 0.846,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "AF categorical nested-lower-RMSE fraction",
+      "actual": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Qm power-law nested-lower-RMSE fraction",
+      "actual": 1.0,
+      "expected": 1.0,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S30 exact repeated partitions AF",
+      "actual": true,
+      "expected": true,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "S30 exact repeated partitions Qm",
+      "actual": true,
+      "expected": true,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "XAI rank agreement SR",
+      "actual": 0.6932330827067669,
+      "expected": 0.693,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "XAI rank agreement Qm",
+      "actual": 0.8945054945054945,
+      "expected": 0.895,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "XAI rank agreement AF",
+      "actual": 0.3806204333703354,
+      "expected": 0.381,
+      "tolerance": 0.0005,
+      "status": "PASS"
+    },
+    {
+      "check": "Pr excluded from XAI rank agreement",
+      "actual": true,
+      "expected": true,
+      "tolerance": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 repeated convention Pr",
+      "actual": -0.0831518510888341,
+      "expected": -0.0831518510888341,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 LOFO convention Pr",
+      "actual": -0.347743978586553,
+      "expected": -0.347743978586553,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 repeated convention SR",
+      "actual": -0.07362613873721,
+      "expected": -0.07362613873721,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 LOFO convention SR",
+      "actual": 0.3929835700307522,
+      "expected": 0.3929835700307522,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 repeated convention Qm",
+      "actual": 0.7624001749986342,
+      "expected": 0.7624001749986342,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 LOFO convention Qm",
+      "actual": -1.4582603196393156,
+      "expected": -1.4582603196393156,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 repeated convention AF",
+      "actual": 0.7120623642228504,
+      "expected": 0.7120623642228504,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "Table S27 LOFO convention AF",
+      "actual": 0.7623138806878467,
+      "expected": 0.7623138806878467,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation repeated convention Pr",
+      "actual": -0.0831518510888341,
+      "expected": -0.0831518510888341,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation LOFO convention Pr",
+      "actual": -0.347743978586553,
+      "expected": -0.347743978586553,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation repeated convention SR",
+      "actual": -0.07362613873721,
+      "expected": -0.07362613873721,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation LOFO convention SR",
+      "actual": 0.3929835700307522,
+      "expected": 0.3929835700307522,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation repeated convention Qm",
+      "actual": 0.7624001749986342,
+      "expected": 0.7624001749986342,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation LOFO convention Qm",
+      "actual": -1.4582603196393156,
+      "expected": -1.4582603196393156,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation repeated convention AF",
+      "actual": 0.7120623642228504,
+      "expected": 0.7120623642228504,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    },
+    {
+      "check": "S19 reconciliation LOFO convention AF",
+      "actual": 0.7623138806878467,
+      "expected": 0.7623138806878467,
+      "tolerance": 1e-12,
+      "status": "PASS"
+    }
+  ],
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "executable": "/opt/pyvenv/bin/python",
+    "cwd": "/mnt/data/master_integration_stage1/stage12_recert_runner/final_code",
+    "root": "/mnt/data/master_integration_stage1/stage12_recert_runner/final_code",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "xgboost": "3.1.3",
+      "shap": "0.50.0"
+    }
+  },
+  "end_time": 1790550594.6381729,
+  "runtime_seconds": 688.1256637573242
+}

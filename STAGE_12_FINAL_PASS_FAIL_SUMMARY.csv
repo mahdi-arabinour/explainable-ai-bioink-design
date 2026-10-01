@@ -1,0 +1,26 @@
+Analysis,Status,Key result / note
+Canonical data preparation,PASS,Pr 40; SR 43; Qm 40; AF 96
+Descriptive figure generation,PASS,S1-S2 and manuscript Figure 3 regenerated from canonical data/current fixed reference models
+Core vs engineered representation sensitivity,PASS,S19 reconciled; six of eight same-algorithm comparisons
+Nested repeated CV,PASS,Pr -0.083; SR -0.074; Qm 0.762; AF 0.712
+Nested LOFO,PASS,Pr -0.348; SR 0.393; Qm -1.458; AF 0.762
+R2 aggregation,PASS,Repeat-pooled Pr 0.321; SR 0.033; Qm 0.846; AF 0.742
+Simple AF/Qm baselines,PASS,Baseline tables regenerated
+Baseline-vs-nested exact matched comparison,PASS AFTER REPAIR,AF categorical 0.793 vs nested 0.742; AF baseline lower RMSE 20/20; Qm power-law -0.027 vs nested 0.846
+Dimensionless Pi_y sensitivity,PASS,No positive standalone transferable one-descriptor rule
+LOFO uncertainty,PASS,SR bootstrap 95% interval 0.179-0.537; delete-one 0.315-0.445
+OOF permutation importance,PASS,Held-out outputs regenerated and audited
+SHAP,PASS,Separate SHAP outputs; seed 42
+XAI rank agreement,PASS,SR 0.693; Qm 0.895; AF 0.381; Pr excluded
+Candidate measured-domain screen,PASS,34 jointly observed; 14 strict; 21 relaxed; 7 additional
+Retrospective candidate bootstrap,PASS,49.1% rank 1; 63.3% top 3; 0/16 pairwise intervals separated
+Table 2 / S19 reconciliation,PASS AFTER REPAIR,S27 uses primary fold-wise nested R2
+Manuscript Tables 1-5,PASS AFTER CORRECTION,Table 1 SR max 7.511; Qm max 3.336; Tables 2-5 synchronized
+Supplementary Information,PASS WITH OPTIONAL EXEMPTION,S24 publisher-PDF provenance audit skipped optional; core SI synchronized
+Response to Reviewers,PASS,Synchronized to corrected clean-room outputs
+Final Master Runner recertification,PASS,Fresh extraction; 50/50 numerical checks; 688.1 s
+Final Master Notebook recertification,PASS,Fresh independent extraction; 19/19 code cells; 0 errors; 692.43 s
+Runner vs Notebook scientific outputs,PASS,112 common result files: 101 exact SHA-256 + 11 semantic; 0 discrepancies
+Final document guard,PASS,60/60 checks including Table 1 and corrected Table S30
+Final package cleanup/audit,PASS,Active outputs freshly regenerated; caches/transients removed; manifest regenerated
+Graphical Abstract / TOC,OUT OF SCOPE,Explicit workflow exclusion

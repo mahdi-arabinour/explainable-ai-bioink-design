@@ -1,0 +1,14 @@
+{
+  "purpose": "Reviewer-suggested uncertainty analysis of the originally submitted within-set ranking.",
+  "bootstrap_unit": "polymer formulation cluster",
+  "n_formulations_per_bootstrap": 8,
+  "n_bootstrap_replicates": 1000,
+  "reference_Pr_model": "LinearRegression / core (duplicate-reduced fixed reference model)",
+  "reference_AF_model": "XGBoost / angle_engineered (duplicate-reduced fixed reference model)",
+  "ranking_score": "|Pr_pred - 1| + |AF_pred - 1|",
+  "original_top": "1ALG8HA / 65 kPa / 120 degrees",
+  "original_top_bootstrap_P_top": 0.491,
+  "original_top_bootstrap_P_top3": 0.633,
+  "n_pairwise_95pct_separations_vs_original_top": 0,
+  "interpretation": "The original top candidate is the modal bootstrap leader, but no pairwise 95% bootstrap difference interval excludes zero; a unique top rank is therefore not statistically resolved."
+}

@@ -1,0 +1,15 @@
+PASS: Repeated-validation label -- ['Repeated5x5']
+PASS: Repeated held-out fold count -- [np.int64(25)]
+PASS: Pr excluded from rank agreement -- ['SR', 'Qm', 'AF']
+PASS: Rank agreement targets -- ['SR', 'Qm', 'AF']
+PASS: No Consensus_score in Table3 -- ['Target', 'Feature', 'OOF_Permutation_Delta_RMSE_mean', 'OOF_Permutation_rank', 'Mean_abs_SHAP', 'SHAP_rank', 'Spearman_rho', 'Direction', 'Mean_outcome_low_bin', 'Mean_outcome_high_bin', 'High_minus_low', 'Interpretation_status']
+PASS: No Composite_score in Table3 -- ['Target', 'Feature', 'OOF_Permutation_Delta_RMSE_mean', 'OOF_Permutation_rank', 'Mean_abs_SHAP', 'SHAP_rank', 'Spearman_rho', 'Direction', 'Mean_outcome_low_bin', 'Mean_outcome_high_bin', 'High_minus_low', 'Interpretation_status']
+PASS: No XAI_consensus_score in Table3 -- ['Target', 'Feature', 'OOF_Permutation_Delta_RMSE_mean', 'OOF_Permutation_rank', 'Mean_abs_SHAP', 'SHAP_rank', 'Spearman_rho', 'Direction', 'Mean_outcome_low_bin', 'Mean_outcome_high_bin', 'High_minus_low', 'Interpretation_status']
+PASS: Separate PI column present
+PASS: Separate SHAP column present
+PASS: S22 separate-rank sheet -- ['Metadata', 'ReferenceModels', 'OOF_PI_Repeated', 'OOF_PI_Rep_Folds', 'OOF_PI_LOFO', 'OOF_PI_LOFO_Folds', 'SHAP', 'Separate_Ranks', 'Rank_Agreement_No_Pr', 'Table3']
+PASS: S22 no consensus analysis sheet -- ['Metadata', 'ReferenceModels', 'OOF_PI_Repeated', 'OOF_PI_Rep_Folds', 'OOF_PI_LOFO', 'OOF_PI_LOFO_Folds', 'SHAP', 'Separate_Ranks', 'Rank_Agreement_No_Pr', 'Table3']
+PASS: S22 consensus marked removed -- {'Random_seed': 42, 'Permutation_repeats_per_fold': 10, 'Repeated_CV': '5 folds x 5 repeats', 'LOFO': 'Leave one formulation out', 'Consensus_score': 'Removed', 'Pr_rank_agreement': 'Excluded from summary', 'Permutation_method': 'Feature shuffling performed only in held-out test fold; delta RMSE = permuted RMSE - baseline test RMSE', 'SHAP_scope': 'Descriptive SHAP from full-data refit of the same fixed reference model; not used as a performance estimate.', 'SHAP_permutation_seed': 42}
+PASS: S22 repeated-CV metadata -- 5 folds x 5 repeats
+PASS: S22 SHAP seed recorded -- 42
+PASS: No superseded XAI files in active supplementary/tables -- []

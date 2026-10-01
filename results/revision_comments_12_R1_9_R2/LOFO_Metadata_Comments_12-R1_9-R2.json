@@ -1,0 +1,16 @@
+{
+  "comments_addressed": [
+    "12-R1",
+    "9-R2"
+  ],
+  "analysis_type": "formulation-level uncertainty analysis of existing nested LOFO outer predictions",
+  "source_group_metrics": "results/revision_comments_4_R1_16_R2/Nested_LOFO_Group_Metrics_Comments_4-R1_16-R2.csv",
+  "source_pooled_summary": "results/revision_comments_4_R1_16_R2/Nested_LOFO_Summary_Comments_4-R1_16-R2.csv",
+  "source_outer_predictions": "results/revision_comments_4_R1_16_R2/Nested_LOFO_Predictions_Comments_4-R1_16-R2.csv",
+  "new_model_fits_required": false,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 42,
+  "bootstrap_unit": "outer held-out formulation block",
+  "bootstrap_interval": "percentile 95% interval",
+  "statistical_note": "Per-formulation R2 values are reported as fold-level diagnostics and are not averaged to replace pooled LOFO R2. The formulation-block bootstrap resamples the eight already-held-out formulation blocks with replacement while preserving all observations within each block. It quantifies evaluation-sample uncertainty conditional on the fixed nested-LOFO outer predictions; it does not refit model-selection/training procedures within each bootstrap replicate and therefore is not a full training-procedure bootstrap. With only eight formulation blocks, the interval is a sensitivity analysis rather than a precise population-level confidence statement."
+}

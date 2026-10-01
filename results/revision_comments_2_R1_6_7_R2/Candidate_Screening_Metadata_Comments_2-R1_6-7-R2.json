@@ -1,0 +1,17 @@
+{
+  "comments": [
+    "2-R1",
+    "6-R2",
+    "7-R2"
+  ],
+  "decision": "Remove model-error-based within-set ranking and remove predicted Pr from screening gate.",
+  "candidate_definition": "Jointly observed formulation-pressure conditions with measured Pr in [0.95, 1.05] and at least one measured AF in [1.00, 1.25].",
+  "n_jointly_observed": 34,
+  "n_candidate_set": 14,
+  "n_relaxed_sensitivity_set": 21,
+  "all_candidate_set_meet_source_Qm_gt0_SR_lt6": true,
+  "ranking_removed": true,
+  "predicted_Pr_gate_removed": true,
+  "predicted_AF_gate_removed": true,
+  "display_sort": "Formulation and pressure only; Display_order_only is not a scientific rank."
+}

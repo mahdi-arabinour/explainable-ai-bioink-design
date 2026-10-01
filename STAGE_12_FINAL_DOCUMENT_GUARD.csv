@@ -1,0 +1,61 @@
+Check,Actual,Expected,Status
+Manuscript Table 1 SR max,7.511,7.511,PASS
+Manuscript Table 1 Qm max,3.336,3.336,PASS
+SI S30 AF angle-only linear Repeat-pooled OOF Baseline_R2_mean,0.766,0.766,PASS
+SI S30 AF angle-only linear Repeat-pooled OOF Nested_multivariable_R2_mean,0.742,0.742,PASS
+SI S30 AF angle-only linear Repeat-pooled OOF Delta_R2_nested_minus_baseline,-0.024,-0.024,PASS
+SI S30 AF angle-only linear Repeat-pooled OOF Baseline_RMSE_mean,0.160,0.160,PASS
+SI S30 AF angle-only linear Repeat-pooled OOF Nested_multivariable_RMSE_mean,0.167,0.167,PASS
+SI S30 AF angle-only linear Repeat-pooled OOF Delta_RMSE_baseline_minus_nested,-0.008,-0.008,PASS
+SI S30 AF angle-only linear fraction,0.20,0.20,PASS
+SI S30 AF angle-only linear LOFO pooled Baseline_R2_mean,0.765,0.765,PASS
+SI S30 AF angle-only linear LOFO pooled Nested_multivariable_R2_mean,0.762,0.762,PASS
+SI S30 AF angle-only linear LOFO pooled Delta_R2_nested_minus_baseline,-0.003,-0.003,PASS
+SI S30 AF angle-only linear LOFO pooled Baseline_RMSE_mean,0.160,0.160,PASS
+SI S30 AF angle-only linear LOFO pooled Nested_multivariable_RMSE_mean,0.161,0.161,PASS
+SI S30 AF angle-only linear LOFO pooled Delta_RMSE_baseline_minus_nested,-0.001,-0.001,PASS
+SI S30 AF angle-only categorical mean Repeat-pooled OOF Baseline_R2_mean,0.793,0.793,PASS
+SI S30 AF angle-only categorical mean Repeat-pooled OOF Nested_multivariable_R2_mean,0.742,0.742,PASS
+SI S30 AF angle-only categorical mean Repeat-pooled OOF Delta_R2_nested_minus_baseline,-0.051,-0.051,PASS
+SI S30 AF angle-only categorical mean Repeat-pooled OOF Baseline_RMSE_mean,0.150,0.150,PASS
+SI S30 AF angle-only categorical mean Repeat-pooled OOF Nested_multivariable_RMSE_mean,0.167,0.167,PASS
+SI S30 AF angle-only categorical mean Repeat-pooled OOF Delta_RMSE_baseline_minus_nested,-0.017,-0.017,PASS
+SI S30 AF angle-only categorical mean fraction,0.00,0.00,PASS
+SI S30 AF angle-only categorical mean LOFO pooled Baseline_R2_mean,0.791,0.791,PASS
+SI S30 AF angle-only categorical mean LOFO pooled Nested_multivariable_R2_mean,0.762,0.762,PASS
+SI S30 AF angle-only categorical mean LOFO pooled Delta_R2_nested_minus_baseline,-0.029,-0.029,PASS
+SI S30 AF angle-only categorical mean LOFO pooled Baseline_RMSE_mean,0.151,0.151,PASS
+SI S30 AF angle-only categorical mean LOFO pooled Nested_multivariable_RMSE_mean,0.161,0.161,PASS
+SI S30 AF angle-only categorical mean LOFO pooled Delta_RMSE_baseline_minus_nested,-0.010,-0.010,PASS
+SI S30 Qm P/TP linear Repeat-pooled OOF Baseline_R2_mean,-0.014,-0.014,PASS
+SI S30 Qm P/TP linear Repeat-pooled OOF Nested_multivariable_R2_mean,0.846,0.846,PASS
+SI S30 Qm P/TP linear Repeat-pooled OOF Delta_R2_nested_minus_baseline,0.859,0.859,PASS
+SI S30 Qm P/TP linear Repeat-pooled OOF Baseline_RMSE_mean,0.669,0.669,PASS
+SI S30 Qm P/TP linear Repeat-pooled OOF Nested_multivariable_RMSE_mean,0.255,0.255,PASS
+SI S30 Qm P/TP linear Repeat-pooled OOF Delta_RMSE_baseline_minus_nested,0.414,0.414,PASS
+SI S30 Qm P/TP linear fraction,1.00,1.00,PASS
+SI S30 Qm P/TP linear LOFO pooled Baseline_R2_mean,-0.424,-0.424,PASS
+SI S30 Qm P/TP linear LOFO pooled Nested_multivariable_R2_mean,-1.458,-1.458,PASS
+SI S30 Qm P/TP linear LOFO pooled Delta_R2_nested_minus_baseline,-1.034,-1.034,PASS
+SI S30 Qm P/TP linear LOFO pooled Baseline_RMSE_mean,0.793,0.793,PASS
+SI S30 Qm P/TP linear LOFO pooled Nested_multivariable_RMSE_mean,1.042,1.042,PASS
+SI S30 Qm P/TP linear LOFO pooled Delta_RMSE_baseline_minus_nested,-0.249,-0.249,PASS
+SI S30 Qm P/TP power law Repeat-pooled OOF Baseline_R2_mean,-0.027,-0.027,PASS
+SI S30 Qm P/TP power law Repeat-pooled OOF Nested_multivariable_R2_mean,0.846,0.846,PASS
+SI S30 Qm P/TP power law Repeat-pooled OOF Delta_R2_nested_minus_baseline,0.873,0.873,PASS
+SI S30 Qm P/TP power law Repeat-pooled OOF Baseline_RMSE_mean,0.674,0.674,PASS
+SI S30 Qm P/TP power law Repeat-pooled OOF Nested_multivariable_RMSE_mean,0.255,0.255,PASS
+SI S30 Qm P/TP power law Repeat-pooled OOF Delta_RMSE_baseline_minus_nested,0.418,0.418,PASS
+SI S30 Qm P/TP power law fraction,1.00,1.00,PASS
+SI S30 Qm P/TP power law LOFO pooled Baseline_R2_mean,-0.455,-0.455,PASS
+SI S30 Qm P/TP power law LOFO pooled Nested_multivariable_R2_mean,-1.458,-1.458,PASS
+SI S30 Qm P/TP power law LOFO pooled Delta_R2_nested_minus_baseline,-1.003,-1.003,PASS
+SI S30 Qm P/TP power law LOFO pooled Baseline_RMSE_mean,0.802,0.802,PASS
+SI S30 Qm P/TP power law LOFO pooled Nested_multivariable_RMSE_mean,1.042,1.042,PASS
+SI S30 Qm P/TP power law LOFO pooled Delta_RMSE_baseline_minus_nested,-0.240,-0.240,PASS
+Manuscript: corrected AF 0.793 present,present,present,PASS
+Manuscript: corrected Qm -0.027 present,present,present,PASS
+Manuscript: old 19 of 20 absent,absent,absent,PASS
+Response: corrected AF 0.793 present,present,present,PASS
+Response: corrected Qm -0.027 present,present,present,PASS
+Response: old 19 of 20 absent,absent,absent,PASS

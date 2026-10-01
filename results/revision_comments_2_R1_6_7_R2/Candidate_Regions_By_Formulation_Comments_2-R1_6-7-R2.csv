@@ -1,0 +1,7 @@
+Formulation_label,Alg_mg_ml,HA_mg_ml,N_candidate_conditions,Pressure_min_kPa,Pressure_max_kPa
+1ALG8HA,10,80,1,65,65
+2ALG8HA,20,80,3,85,105
+4ALG4HA,40,40,3,55,70
+4ALG6HA,40,60,2,75,95
+4ALG8HA,40,80,2,110,140
+6ALG6HA,60,60,3,140,160

@@ -1,0 +1,333 @@
+Baseline,Held_out_formulation,Index,Observed,Predicted,Target,Predictor
+Qm: P/TP linear,1ALG8HA,0,0.735,0.866175594687831,Qm,P_over_TP
+Qm: P/TP linear,1ALG8HA,1,0.851,0.9243680142499604,Qm,P_over_TP
+Qm: P/TP linear,1ALG8HA,2,1.074,0.9825604338120898,Qm,P_over_TP
+Qm: P/TP linear,1ALG8HA,3,1.375,1.0407528533742192,Qm,P_over_TP
+Qm: P/TP linear,1ALG8HA,4,1.834,1.0989452729363487,Qm,P_over_TP
+Qm: P/TP linear,2ALG8HA,5,0.293,0.9977790610525795,Qm,P_over_TP
+Qm: P/TP linear,2ALG8HA,6,0.507,1.0850909620443905,Qm,P_over_TP
+Qm: P/TP linear,2ALG8HA,7,0.767,1.1724028630362016,Qm,P_over_TP
+Qm: P/TP linear,2ALG8HA,8,1.144,1.2597147640280126,Qm,P_over_TP
+Qm: P/TP linear,2ALG8HA,9,1.438,1.3470266650198237,Qm,P_over_TP
+Qm: P/TP linear,4ALG4HA,10,0.778,0.6382955519630727,Qm,P_over_TP
+Qm: P/TP linear,4ALG4HA,11,1.134,0.725268624367778,Qm,P_over_TP
+Qm: P/TP linear,4ALG4HA,12,1.797,0.8122416967724833,Qm,P_over_TP
+Qm: P/TP linear,4ALG4HA,13,2.403,0.8992147691771886,Qm,P_over_TP
+Qm: P/TP linear,4ALG4HA,14,2.881,0.9861878415818939,Qm,P_over_TP
+Qm: P/TP linear,4ALG6HA,15,0.658,0.936165208305028,Qm,P_over_TP
+Qm: P/TP linear,4ALG6HA,16,0.874,0.9891763210355347,Qm,P_over_TP
+Qm: P/TP linear,4ALG6HA,17,1.363,1.042187433766041,Qm,P_over_TP
+Qm: P/TP linear,4ALG6HA,18,2.547,1.095198546496548,Qm,P_over_TP
+Qm: P/TP linear,4ALG6HA,19,3.336,1.1482096592270543,Qm,P_over_TP
+Qm: P/TP linear,4ALG8HA,20,0.811,1.10496711711122,Qm,P_over_TP
+Qm: P/TP linear,4ALG8HA,21,0.942,1.1883966348885497,Qm,P_over_TP
+Qm: P/TP linear,4ALG8HA,22,1.163,1.2718261526658794,Qm,P_over_TP
+Qm: P/TP linear,4ALG8HA,23,1.45,1.3552556704432095,Qm,P_over_TP
+Qm: P/TP linear,4ALG8HA,24,1.616,1.4386851882205391,Qm,P_over_TP
+Qm: P/TP linear,6ALG2HA,25,0.395,0.9832844570816678,Qm,P_over_TP
+Qm: P/TP linear,6ALG2HA,26,0.522,1.0304169612271736,Qm,P_over_TP
+Qm: P/TP linear,6ALG2HA,27,0.612,1.0775494653726798,Qm,P_over_TP
+Qm: P/TP linear,6ALG2HA,28,0.769,1.1246819695181856,Qm,P_over_TP
+Qm: P/TP linear,6ALG2HA,29,1.048,1.1718144736636915,Qm,P_over_TP
+Qm: P/TP linear,6ALG4HA,30,0.506,1.0702648735854603,Qm,P_over_TP
+Qm: P/TP linear,6ALG4HA,31,0.665,1.1202027984102993,Qm,P_over_TP
+Qm: P/TP linear,6ALG4HA,32,0.871,1.1701407232351384,Qm,P_over_TP
+Qm: P/TP linear,6ALG4HA,33,1.084,1.2200786480599772,Qm,P_over_TP
+Qm: P/TP linear,6ALG4HA,34,1.076,1.2700165728848163,Qm,P_over_TP
+Qm: P/TP linear,6ALG6HA,35,0.644,1.8243108392006566,Qm,P_over_TP
+Qm: P/TP linear,6ALG6HA,36,0.689,1.9300943104308113,Qm,P_over_TP
+Qm: P/TP linear,6ALG6HA,37,0.768,2.0358777816609663,Qm,P_over_TP
+Qm: P/TP linear,6ALG6HA,38,0.918,2.1416612528911214,Qm,P_over_TP
+Qm: P/TP linear,6ALG6HA,39,1.027,2.2474447241212756,Qm,P_over_TP
+Qm: P/TP power law,1ALG8HA,0,0.735,0.6913809990540303,Qm,P_over_TP
+Qm: P/TP power law,1ALG8HA,1,0.851,0.7555002497475362,Qm,P_over_TP
+Qm: P/TP power law,1ALG8HA,2,1.074,0.8205276905368329,Qm,P_over_TP
+Qm: P/TP power law,1ALG8HA,3,1.375,0.8864142919703136,Qm,P_over_TP
+Qm: P/TP power law,1ALG8HA,4,1.834,0.9531165965795907,Qm,P_over_TP
+Qm: P/TP power law,2ALG8HA,5,0.293,0.8469488286031082,Qm,P_over_TP
+Qm: P/TP power law,2ALG8HA,6,0.507,0.9444174026194546,Qm,P_over_TP
+Qm: P/TP power law,2ALG8HA,7,0.767,1.0404062529116427,Qm,P_over_TP
+Qm: P/TP power law,2ALG8HA,8,1.144,1.1350908320737731,Qm,P_over_TP
+Qm: P/TP power law,2ALG8HA,9,1.438,1.2286110494120952,Qm,P_over_TP
+Qm: P/TP power law,4ALG4HA,10,0.778,0.5613823432369583,Qm,P_over_TP
+Qm: P/TP power law,4ALG4HA,11,1.134,0.6379873923170218,Qm,P_over_TP
+Qm: P/TP power law,4ALG4HA,12,1.797,0.7176558381355767,Qm,P_over_TP
+Qm: P/TP power law,4ALG4HA,13,2.403,0.8002602627614746,Qm,P_over_TP
+Qm: P/TP power law,4ALG4HA,14,2.881,0.8856874515500818,Qm,P_over_TP
+Qm: P/TP power law,4ALG6HA,15,0.658,0.7688477560975853,Qm,P_over_TP
+Qm: P/TP power law,4ALG6HA,16,0.874,0.8548271936203805,Qm,P_over_TP
+Qm: P/TP power law,4ALG6HA,17,1.363,0.939268507109518,Qm,P_over_TP
+Qm: P/TP power law,4ALG6HA,18,2.547,1.0223576131402334,Qm,P_over_TP
+Qm: P/TP power law,4ALG6HA,19,3.336,1.1042423955772613,Qm,P_over_TP
+Qm: P/TP power law,4ALG8HA,20,0.811,0.9566932980818991,Qm,P_over_TP
+Qm: P/TP power law,4ALG8HA,21,0.942,1.0487044078997032,Qm,P_over_TP
+Qm: P/TP power law,4ALG8HA,22,1.163,1.1411414220172043,Qm,P_over_TP
+Qm: P/TP power law,4ALG8HA,23,1.45,1.2339732620194548,Qm,P_over_TP
+Qm: P/TP power law,4ALG8HA,24,1.616,1.3271731870490673,Qm,P_over_TP
+Qm: P/TP power law,6ALG2HA,25,0.395,0.7998521494442059,Qm,P_over_TP
+Qm: P/TP power law,6ALG2HA,26,0.522,0.8583326167205607,Qm,P_over_TP
+Qm: P/TP power law,6ALG2HA,27,0.612,0.9158980009214872,Qm,P_over_TP
+Qm: P/TP power law,6ALG2HA,28,0.769,0.9726315627123305,Qm,P_over_TP
+Qm: P/TP power law,6ALG2HA,29,1.048,1.0286035972876155,Qm,P_over_TP
+Qm: P/TP power law,6ALG4HA,30,0.506,0.9107090944901212,Qm,P_over_TP
+Qm: P/TP power law,6ALG4HA,31,0.665,0.9683798678959297,Qm,P_over_TP
+Qm: P/TP power law,6ALG4HA,32,0.871,1.0262890579374888,Qm,P_over_TP
+Qm: P/TP power law,6ALG4HA,33,1.084,1.0844250139387208,Qm,P_over_TP
+Qm: P/TP power law,6ALG4HA,34,1.076,1.1427772106436267,Qm,P_over_TP
+Qm: P/TP power law,6ALG6HA,35,0.644,1.7583562396279335,Qm,P_over_TP
+Qm: P/TP power law,6ALG6HA,36,0.689,1.8954329191162045,Qm,P_over_TP
+Qm: P/TP power law,6ALG6HA,37,0.768,2.0380020585572436,Qm,P_over_TP
+Qm: P/TP power law,6ALG6HA,38,0.918,2.1860896455961583,Qm,P_over_TP
+Qm: P/TP power law,6ALG6HA,39,1.027,2.339720932371883,Qm,P_over_TP
+Qm: P/yield-stress dimensionless ratio linear,1ALG8HA,0,0.735,0.8137866599941541,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,1ALG8HA,1,0.851,0.853323059084221,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,1ALG8HA,2,1.074,0.892859458174288,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,1ALG8HA,3,1.375,0.9323958572643549,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,1ALG8HA,4,1.834,0.9719322563544219,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,2ALG8HA,5,0.293,1.0895279698373908,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,2ALG8HA,6,0.507,1.146349111598271,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,2ALG8HA,7,0.767,1.203170253359151,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,2ALG8HA,8,1.144,1.2599913951200314,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,2ALG8HA,9,1.438,1.3168125368809114,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG4HA,10,0.778,0.7087360955988358,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG4HA,11,1.134,0.7720226190867374,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG4HA,12,1.797,0.8353091425746391,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG4HA,13,2.403,0.8985956660625405,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG4HA,14,2.881,0.9618821895504421,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG6HA,15,0.658,0.9778321819420591,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG6HA,16,0.874,1.0055994450951393,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG6HA,17,1.363,1.0333667082482196,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG6HA,18,2.547,1.0611339714012997,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG6HA,19,3.336,1.08890123455438,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG8HA,20,0.811,1.219413306649793,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG8HA,21,0.942,1.2887963714092985,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG8HA,22,1.163,1.358179436168804,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG8HA,23,1.45,1.427562500928309,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,4ALG8HA,24,1.616,1.4969455656878146,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG2HA,25,0.395,1.1330540530545794,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG2HA,26,0.522,1.1891576532352595,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG2HA,27,0.612,1.2452612534159395,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG2HA,28,0.769,1.3013648535966198,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG2HA,29,1.048,1.3574684537772996,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG4HA,30,0.506,1.0995773440869336,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG4HA,31,0.665,1.1282222331590885,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG4HA,32,0.871,1.1568671222312434,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG4HA,33,1.084,1.1855120113033981,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG4HA,34,1.076,1.2141569003755528,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG6HA,35,0.644,1.2237135864717574,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG6HA,36,0.689,1.2531755061270344,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG6HA,37,0.768,1.2826374257823117,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG6HA,38,0.918,1.3120993454375887,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio linear,6ALG6HA,39,1.027,1.3415612650928659,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,1ALG8HA,0,0.735,0.6202805797792702,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,1ALG8HA,1,0.851,0.6660749330708884,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,1ALG8HA,2,1.074,0.7117423336933887,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,1ALG8HA,3,1.375,0.757291575933759,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,1ALG8HA,4,1.834,0.8027303324792883,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,2ALG8HA,5,0.293,0.9577650558872823,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,2ALG8HA,6,0.507,1.0116392681420596,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,2ALG8HA,7,0.767,1.062052134913792,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,2ALG8HA,8,1.144,1.1095586253867242,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,2ALG8HA,9,1.438,1.1545812318918254,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG4HA,10,0.778,0.648288714639479,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG4HA,11,1.134,0.7034060842218868,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG4HA,12,1.797,0.7582381062007032,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG4HA,13,2.403,0.8128080880998816,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG4HA,14,2.881,0.8671359024678073,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG6HA,15,0.658,0.838768174690799,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG6HA,16,0.874,0.8817208868866442,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG6HA,17,1.363,0.9217329663988814,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG6HA,18,2.547,0.959286459823944,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG6HA,19,3.336,0.9947468436512428,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG8HA,20,0.811,1.039995379319574,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG8HA,21,0.942,1.0891151436911428,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG8HA,22,1.163,1.13634709377686,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG8HA,23,1.45,1.1819012573825474,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,4ALG8HA,24,1.616,1.2259511363803113,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG2HA,25,0.395,0.9936390044014011,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG2HA,26,0.522,1.051533603454265,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG2HA,27,0.612,1.1077657296058876,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG2HA,28,0.769,1.1625059659031602,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG2HA,29,1.048,1.2158965533287307,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG4HA,30,0.506,0.9459269873960413,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG4HA,31,0.665,0.9761885358533817,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG4HA,32,0.871,1.0057039864400472,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG4HA,33,1.084,1.0345296272251305,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG4HA,34,1.076,1.0627149221928434,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG6HA,35,0.644,1.0723033526085652,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG6HA,36,0.689,1.1004638849615436,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG6HA,37,0.768,1.1283717877330763,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG6HA,38,0.918,1.1560376399616419,Qm,P_over_Yield_dimless
+Qm: P/yield-stress dimensionless ratio power law,6ALG6HA,39,1.027,1.1834712518531305,Qm,P_over_Yield_dimless
+SR: P/TP linear,1ALG8HA,0,3.422,4.978304525539746,SR,P_over_TP
+SR: P/TP linear,1ALG8HA,1,4.538,4.998518005341892,SR,P_over_TP
+SR: P/TP linear,1ALG8HA,2,5.597,5.0187314851440386,SR,P_over_TP
+SR: P/TP linear,1ALG8HA,3,6.138,5.038944964946185,SR,P_over_TP
+SR: P/TP linear,1ALG8HA,4,6.203,5.0591584447483315,SR,P_over_TP
+SR: P/TP linear,1ALG8HA,5,3.589,5.119798884154771,SR,P_over_TP
+SR: P/TP linear,2ALG8HA,6,3.943,5.11709065087008,SR,P_over_TP
+SR: P/TP linear,2ALG8HA,7,3.697,5.098414472461564,SR,P_over_TP
+SR: P/TP linear,2ALG8HA,8,4.767,5.079738294053049,SR,P_over_TP
+SR: P/TP linear,2ALG8HA,9,4.49,5.061062115644535,SR,P_over_TP
+SR: P/TP linear,2ALG8HA,10,7.511,5.04238593723602,SR,P_over_TP
+SR: P/TP linear,4ALG4HA,11,4.142,5.067087464126812,SR,P_over_TP
+SR: P/TP linear,4ALG4HA,12,4.559,5.047476971307347,SR,P_over_TP
+SR: P/TP linear,4ALG4HA,13,5.156,5.027866478487881,SR,P_over_TP
+SR: P/TP linear,4ALG4HA,14,4.706,5.008255985668415,SR,P_over_TP
+SR: P/TP linear,4ALG4HA,15,7.238,4.988645492848949,SR,P_over_TP
+SR: P/TP linear,4ALG4HA,16,7.447,4.89059302875162,SR,P_over_TP
+SR: P/TP linear,4ALG6HA,17,4.586,5.071213434999031,SR,P_over_TP
+SR: P/TP linear,4ALG6HA,18,3.873,5.076615062526203,SR,P_over_TP
+SR: P/TP linear,4ALG6HA,19,4.056,5.082016690053376,SR,P_over_TP
+SR: P/TP linear,4ALG6HA,20,5.379,5.087418317580548,SR,P_over_TP
+SR: P/TP linear,4ALG6HA,21,6.194,5.0928199451077205,SR,P_over_TP
+SR: P/TP linear,4ALG8HA,22,3.129,5.211358008080242,SR,P_over_TP
+SR: P/TP linear,4ALG8HA,23,2.796,5.289803797086479,SR,P_over_TP
+SR: P/TP linear,4ALG8HA,24,3.413,5.368249586092714,SR,P_over_TP
+SR: P/TP linear,4ALG8HA,25,3.85,5.446695375098951,SR,P_over_TP
+SR: P/TP linear,4ALG8HA,26,4.56,5.525141164105188,SR,P_over_TP
+SR: P/TP linear,6ALG2HA,27,4.657,4.606997946604458,SR,P_over_TP
+SR: P/TP linear,6ALG2HA,28,5.419,4.687637020494493,SR,P_over_TP
+SR: P/TP linear,6ALG2HA,29,6.059,4.768276094384527,SR,P_over_TP
+SR: P/TP linear,6ALG2HA,30,6.469,4.848915168274562,SR,P_over_TP
+SR: P/TP linear,6ALG2HA,31,6.838,4.929554242164597,SR,P_over_TP
+SR: P/TP linear,6ALG2HA,32,3.074,5.33274961161477,SR,P_over_TP
+SR: P/TP linear,6ALG4HA,33,5.633,4.810736885156199,SR,P_over_TP
+SR: P/TP linear,6ALG4HA,34,6.376,4.832102039817329,SR,P_over_TP
+SR: P/TP linear,6ALG4HA,35,6.424,4.853467194478458,SR,P_over_TP
+SR: P/TP linear,6ALG4HA,36,6.955,4.874832349139588,SR,P_over_TP
+SR: P/TP linear,6ALG4HA,37,7.023,4.896197503800718,SR,P_over_TP
+SR: P/TP linear,6ALG6HA,38,4.431,5.366167557714634,SR,P_over_TP
+SR: P/TP linear,6ALG6HA,39,3.885,5.413750919964189,SR,P_over_TP
+SR: P/TP linear,6ALG6HA,40,4.816,5.461334282213741,SR,P_over_TP
+SR: P/TP linear,6ALG6HA,41,5.536,5.5089176444632955,SR,P_over_TP
+SR: P/TP linear,6ALG6HA,42,4.683,5.556501006712848,SR,P_over_TP
+SR: P/TP power law,1ALG8HA,0,3.422,4.83457627712299,SR,P_over_TP
+SR: P/TP power law,1ALG8HA,1,4.538,4.852952541746314,SR,P_over_TP
+SR: P/TP power law,1ALG8HA,2,5.597,4.870123212415553,SR,P_over_TP
+SR: P/TP power law,1ALG8HA,3,6.138,4.886240294120048,SR,P_over_TP
+SR: P/TP power law,1ALG8HA,4,6.203,4.901428545643881,SR,P_over_TP
+SR: P/TP power law,1ALG8HA,5,3.589,4.9423776419825405,SR,P_over_TP
+SR: P/TP power law,2ALG8HA,6,3.943,4.963511436230816,SR,P_over_TP
+SR: P/TP power law,2ALG8HA,7,3.697,4.937343389157464,SR,P_over_TP
+SR: P/TP power law,2ALG8HA,8,4.767,4.914205072264497,SR,P_over_TP
+SR: P/TP power law,2ALG8HA,9,4.49,4.893477367002774,SR,P_over_TP
+SR: P/TP power law,2ALG8HA,10,7.511,4.874712589595297,SR,P_over_TP
+SR: P/TP power law,4ALG4HA,11,4.142,4.900521206602596,SR,P_over_TP
+SR: P/TP power law,4ALG4HA,12,4.559,4.878088968334784,SR,P_over_TP
+SR: P/TP power law,4ALG4HA,13,5.156,4.857543998138368,SR,P_over_TP
+SR: P/TP power law,4ALG4HA,14,4.706,4.838599478117611,SR,P_over_TP
+SR: P/TP power law,4ALG4HA,15,7.238,4.821028968432771,SR,P_over_TP
+SR: P/TP power law,4ALG4HA,16,7.447,4.748449640370025,SR,P_over_TP
+SR: P/TP power law,4ALG6HA,17,4.586,4.9071539524119645,SR,P_over_TP
+SR: P/TP power law,4ALG6HA,18,3.873,4.908262588066372,SR,P_over_TP
+SR: P/TP power law,4ALG6HA,19,4.056,4.90924798207898,SR,P_over_TP
+SR: P/TP power law,4ALG6HA,20,5.379,4.910134832024895,SR,P_over_TP
+SR: P/TP power law,4ALG6HA,21,6.194,4.910941081415937,SR,P_over_TP
+SR: P/TP power law,4ALG8HA,22,3.129,5.085353824432115,SR,P_over_TP
+SR: P/TP power law,4ALG8HA,23,2.796,5.166718331178858,SR,P_over_TP
+SR: P/TP power law,4ALG8HA,24,3.413,5.242715529820671,SR,P_over_TP
+SR: P/TP power law,4ALG8HA,25,3.85,5.314074176359573,SR,P_over_TP
+SR: P/TP power law,4ALG8HA,26,4.56,5.381380233089505,SR,P_over_TP
+SR: P/TP power law,6ALG2HA,27,4.657,4.4248651611202,SR,P_over_TP
+SR: P/TP power law,6ALG2HA,28,5.419,4.5247221189774125,SR,P_over_TP
+SR: P/TP power law,6ALG2HA,29,6.059,4.618570425433284,SR,P_over_TP
+SR: P/TP power law,6ALG2HA,30,6.469,4.707194893768157,SR,P_over_TP
+SR: P/TP power law,6ALG2HA,31,6.838,4.791230201792365,SR,P_over_TP
+SR: P/TP power law,6ALG2HA,32,3.074,5.158113177919176,SR,P_over_TP
+SR: P/TP power law,6ALG4HA,33,5.633,4.680443875230289,SR,P_over_TP
+SR: P/TP power law,6ALG4HA,34,6.376,4.6963436100135345,SR,P_over_TP
+SR: P/TP power law,6ALG4HA,35,6.424,4.711433175585956,SR,P_over_TP
+SR: P/TP power law,6ALG4HA,36,6.955,4.7257933823699085,SR,P_over_TP
+SR: P/TP power law,6ALG4HA,37,7.023,4.739493421530447,SR,P_over_TP
+SR: P/TP power law,6ALG6HA,38,4.431,5.104591046989394,SR,P_over_TP
+SR: P/TP power law,6ALG6HA,39,3.885,5.132267429937041,SR,P_over_TP
+SR: P/TP power law,6ALG6HA,40,4.816,5.159147951035464,SR,P_over_TP
+SR: P/TP power law,6ALG6HA,41,5.536,5.1852809138756495,SR,P_over_TP
+SR: P/TP power law,6ALG6HA,42,4.683,5.210710245575797,SR,P_over_TP
+SR: P/yield-stress dimensionless ratio linear,1ALG8HA,0,3.422,5.158247109878382,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,1ALG8HA,1,4.538,5.148326515214116,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,1ALG8HA,2,5.597,5.138405920549849,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,1ALG8HA,3,6.138,5.128485325885583,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,1ALG8HA,4,6.203,5.118564731221317,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,1ALG8HA,5,3.589,5.088802947228518,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,2ALG8HA,6,3.943,5.16945307801187,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,2ALG8HA,7,3.697,5.1159285969841966,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,2ALG8HA,8,4.767,5.062404115956523,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,2ALG8HA,9,4.49,5.00887963492885,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,2ALG8HA,10,7.511,4.955355153901177,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG4HA,11,4.142,5.154444944442281,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG4HA,12,4.559,5.121270583963339,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG4HA,13,5.156,5.088096223484397,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG4HA,14,4.706,5.054921863005456,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG4HA,15,7.238,5.021747502526514,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG4HA,16,7.447,4.855875700131805,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG6HA,17,4.586,5.17136930359754,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG6HA,18,3.873,5.138241715801926,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG6HA,19,4.056,5.105114128006311,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG6HA,20,5.379,5.0719865402106965,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG6HA,21,6.194,5.038858952415082,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG8HA,22,3.129,5.3917742465447045,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG8HA,23,2.796,5.521450231359728,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG8HA,24,3.413,5.651126216174751,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG8HA,25,3.85,5.780802200989773,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,4ALG8HA,26,4.56,5.910478185804795,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG2HA,27,4.657,4.956813643256295,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG2HA,28,5.419,4.984807007128853,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG2HA,29,6.059,5.012800371001411,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG2HA,30,6.469,5.0407937348739695,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG2HA,31,6.838,5.068787098746528,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG2HA,32,3.074,5.20875391810932,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG4HA,33,5.633,4.848310342000462,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG4HA,34,6.376,4.85346115130115,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG4HA,35,6.424,4.858611960601838,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG4HA,36,6.955,4.863762769902525,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG4HA,37,7.023,4.8689135792032125,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG6HA,38,4.431,5.1039865844415,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG6HA,39,3.885,5.105469946420371,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG6HA,40,4.816,5.106953308399241,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG6HA,41,5.536,5.108436670378111,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio linear,6ALG6HA,42,4.683,5.109920032356982,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,1ALG8HA,0,3.422,5.056718768183795,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,1ALG8HA,1,4.538,5.033568218698822,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,1ALG8HA,2,5.597,5.012110849335851,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,1ALG8HA,3,6.138,4.992121630414161,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,1ALG8HA,4,6.203,4.973417266720045,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,1ALG8HA,5,3.589,4.923620729552016,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,2ALG8HA,6,3.943,5.002963960787949,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,2ALG8HA,7,3.697,4.942674984274047,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,2ALG8HA,8,4.767,4.889709417464618,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,2ALG8HA,9,4.49,4.842535059843855,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,2ALG8HA,10,7.511,4.800050467547589,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG4HA,11,4.142,5.011399249701402,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG4HA,12,4.559,4.965395652199269,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG4HA,13,5.156,4.923449461340281,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG4HA,14,4.706,4.8849293340329,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG4HA,15,7.238,4.849338892029558,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG4HA,16,7.447,4.703709538932255,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG6HA,17,4.586,5.008759342382623,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG6HA,18,3.873,4.964150777696807,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG6HA,19,4.056,4.924843090116627,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG6HA,20,5.379,4.889739215463213,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG6HA,21,6.194,4.858048357929044,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG8HA,22,3.129,5.277229994612821,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG8HA,23,2.796,5.39848506941683,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG8HA,24,3.413,5.512487739988602,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG8HA,25,3.85,5.620182935369089,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,4ALG8HA,26,4.56,5.722335092345136,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG2HA,27,4.657,4.811996510538998,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG2HA,28,5.419,4.833636415393596,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG2HA,29,6.059,4.8536291252315005,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG2HA,30,6.469,4.872213199363797,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG2HA,31,6.838,4.889578511858315,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG2HA,32,3.074,4.962656892893352,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG4HA,33,5.633,4.712878953179841,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG4HA,34,6.376,4.713136963463628,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG4HA,35,6.424,4.7133810332551604,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG4HA,36,6.955,4.713612592692591,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG4HA,37,7.023,4.713832862507568,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG6HA,38,4.431,4.92295649143266,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG6HA,39,3.885,4.922522573414984,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG6HA,40,4.816,4.9221034036730344,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG6HA,41,5.536,4.9216980136631525,SR,P_over_Yield_dimless
+SR: P/yield-stress dimensionless ratio power law,6ALG6HA,42,4.683,4.9213055271900386,SR,P_over_Yield_dimless

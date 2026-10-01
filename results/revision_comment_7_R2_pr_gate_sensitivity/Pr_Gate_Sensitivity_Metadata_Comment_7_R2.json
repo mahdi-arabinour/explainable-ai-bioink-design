@@ -1,0 +1,12 @@
+{
+  "comment": "7-R2",
+  "purpose": "Demonstrate that predicted Pr is not used for candidate eligibility and quantify sensitivity of measured-domain membership to the operational Pr tolerance.",
+  "n_jointly_observed": 34,
+  "n_strict_0p95_1p05": 14,
+  "n_relaxed_0p90_1p10": 21,
+  "n_added_by_relaxation": 7,
+  "predicted_Pr_used_in_final_gate": false,
+  "predicted_AF_used_in_final_gate": false,
+  "main_set_redefined_by_sensitivity": false,
+  "note": "The strict 0.95-1.05 measured-Pr interval is treated as a conservative operational screening definition, not as a model-derived or externally validated acceptance boundary."
+}

@@ -1,0 +1,100 @@
+{
+  "seed": 42,
+  "figure_s1": "Generated from the four canonical target-specific modeling datasets.",
+  "figure_s2": "Generated from canonical target-specific modeling rows; descriptive only.",
+  "manuscript_figure3": {
+    "scope": "Descriptive full-data reference-model predictions; not a performance estimate and not used for candidate eligibility or ranking.",
+    "grid": "Formulation-specific source pressure min-to-max at 5-kPa display increments; generated from source-derived master tables, not archived predictions.",
+    "reference_models": {
+      "Pr": {
+        "N_train": 40,
+        "feature_set": "core",
+        "model": "LinearRegression",
+        "features": [
+          "Alg_mg_ml",
+          "HA_mg_ml",
+          "Pressure_kPa"
+        ]
+      },
+      "SR": {
+        "N_train": 43,
+        "feature_set": "rheology_enhanced",
+        "model": "SVR_RBF",
+        "features": [
+          "Alg_mg_ml",
+          "HA_mg_ml",
+          "Pressure_kPa",
+          "TP",
+          "HF",
+          "Alg_HA_ratio_safe",
+          "P_over_TP",
+          "P_over_Alg",
+          "P_over_HA",
+          "Alg_x_HA",
+          "Alg_x_P",
+          "HA_x_P",
+          "TP_x_P",
+          "HF_x_P",
+          "Eta0_mean_Pa_s",
+          "Cross_m_mean",
+          "Cross_k_mean_s",
+          "G_prime_mean_Pa",
+          "G_double_prime_mean_Pa",
+          "Yield_stress_mean_Pa"
+        ]
+      },
+      "Qm": {
+        "N_train": 40,
+        "feature_set": "engineered",
+        "model": "SVR_RBF",
+        "features": [
+          "Alg_mg_ml",
+          "HA_mg_ml",
+          "Pressure_kPa",
+          "TP",
+          "HF",
+          "Alg_HA_ratio_safe",
+          "P_over_TP",
+          "P_over_Alg",
+          "P_over_HA",
+          "Alg_x_HA",
+          "Alg_x_P",
+          "HA_x_P",
+          "TP_x_P",
+          "HF_x_P"
+        ]
+      },
+      "AF": {
+        "N_train": 96,
+        "feature_set": "angle_engineered",
+        "model": "XGBoost",
+        "features": [
+          "Alg_mg_ml",
+          "HA_mg_ml",
+          "Pressure_kPa",
+          "TP",
+          "HF",
+          "Alg_HA_ratio_safe",
+          "P_over_TP",
+          "P_over_Alg",
+          "P_over_HA",
+          "Alg_x_HA",
+          "Alg_x_P",
+          "HA_x_P",
+          "TP_x_P",
+          "HF_x_P",
+          "Angle_deg",
+          "P_x_Angle",
+          "Alg_x_Angle",
+          "HA_x_Angle",
+          "TP_x_Angle"
+        ],
+        "sampled_angles": [
+          60.0,
+          90.0,
+          120.0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "inputs": {
+    "rheology": "data/processed/rheology_table_S1.csv",
+    "printability": "data/processed/printability_table_S2.csv",
+    "angle": "data/processed/angle_fidelity_table_S3.csv"
+  },
+  "target_sizes": {
+    "Pr": 40,
+    "SR": 43,
+    "Qm": 40,
+    "AF": 96
+  },
+  "seed_policy": "No stochastic fitting in this step; downstream core stochastic procedures use seed 42."
+}

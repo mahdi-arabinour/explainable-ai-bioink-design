@@ -2,7 +2,7 @@
 
 The software in this repository is licensed under the MIT License.
 
-The curated and processed datasets are provided to support transparency and reproducibility of the associated secondary analysis. They were derived from experimental data reported by Perin et al. (2023), DOI: 10.1021/acsbiomaterials.2c01143.
+The curated and processed datasets are provided to support transparency and reproducibility of the associated secondary analysis. They were derived programmatically from Tables S1-S3 of the publisher Supporting Information for Perin et al. (2023), DOI: 10.1021/acsbiomaterials.2c01143; plotted figures were not digitized to generate the modeling tables. A row-by-row revision audit found no numeric discrepancies between the source tables and the curated CSVs. The source publication is Open Access under CC BY 4.0.
 
 Users of these datasets should:
 

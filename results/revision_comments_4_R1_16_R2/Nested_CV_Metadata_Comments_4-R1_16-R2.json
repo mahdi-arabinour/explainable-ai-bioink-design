@@ -1,0 +1,116 @@
+{
+  "random_state": 42,
+  "outer_repeated_cv": {
+    "splits": 5,
+    "repeats": 20
+  },
+  "inner_cv": {
+    "splits": 5,
+    "selection_metric": "pooled inner RMSE, MAE tie-break"
+  },
+  "nested_lofo": {
+    "outer": "leave one formulation out",
+    "inner": "leave one formulation out among remaining formulations"
+  },
+  "models": [
+    "LinearRegression",
+    "SVR_RBF",
+    "RandomForest",
+    "GradientBoosting",
+    "XGBoost"
+  ],
+  "feature_sets": {
+    "core": [
+      "Alg_mg_ml",
+      "HA_mg_ml",
+      "Pressure_kPa"
+    ],
+    "engineered": [
+      "Alg_mg_ml",
+      "HA_mg_ml",
+      "Pressure_kPa",
+      "TP",
+      "HF",
+      "Alg_HA_ratio_safe",
+      "P_over_TP",
+      "P_over_Alg",
+      "P_over_HA",
+      "Alg_x_HA",
+      "Alg_x_P",
+      "HA_x_P",
+      "TP_x_P",
+      "HF_x_P"
+    ],
+    "rheology_enhanced": [
+      "Alg_mg_ml",
+      "HA_mg_ml",
+      "Pressure_kPa",
+      "TP",
+      "HF",
+      "Alg_HA_ratio_safe",
+      "P_over_TP",
+      "P_over_Alg",
+      "P_over_HA",
+      "Alg_x_HA",
+      "Alg_x_P",
+      "HA_x_P",
+      "TP_x_P",
+      "HF_x_P",
+      "Eta0_mean_Pa_s",
+      "Cross_m_mean",
+      "Cross_k_mean_s",
+      "G_prime_mean_Pa",
+      "G_double_prime_mean_Pa",
+      "Yield_stress_mean_Pa"
+    ],
+    "angle_engineered": [
+      "Alg_mg_ml",
+      "HA_mg_ml",
+      "Pressure_kPa",
+      "TP",
+      "HF",
+      "Alg_HA_ratio_safe",
+      "P_over_TP",
+      "P_over_Alg",
+      "P_over_HA",
+      "Alg_x_HA",
+      "Alg_x_P",
+      "HA_x_P",
+      "TP_x_P",
+      "HF_x_P",
+      "Angle_deg",
+      "P_x_Angle",
+      "Alg_x_Angle",
+      "HA_x_Angle",
+      "TP_x_Angle"
+    ],
+    "angle_rheology_enhanced": [
+      "Alg_mg_ml",
+      "HA_mg_ml",
+      "Pressure_kPa",
+      "TP",
+      "HF",
+      "Alg_HA_ratio_safe",
+      "P_over_TP",
+      "P_over_Alg",
+      "P_over_HA",
+      "Alg_x_HA",
+      "Alg_x_P",
+      "HA_x_P",
+      "TP_x_P",
+      "HF_x_P",
+      "Angle_deg",
+      "P_x_Angle",
+      "Alg_x_Angle",
+      "HA_x_Angle",
+      "TP_x_Angle",
+      "Eta0_mean_Pa_s",
+      "Cross_m_mean",
+      "Cross_k_mean_s",
+      "G_prime_mean_Pa",
+      "G_double_prime_mean_Pa",
+      "Yield_stress_mean_Pa"
+    ]
+  },
+  "elapsed_seconds": 586.7615396976471
+}

@@ -1,0 +1,100 @@
+{
+  "comments": [
+    "8-R1",
+    "17-R2",
+    "18-R2"
+  ],
+  "random_seed": 42,
+  "n_xai_repeats": 5,
+  "n_permutations_per_heldout_fold": 10,
+  "reference_models": {
+    "Pr": {
+      "feature_set": "core",
+      "model": "LinearRegression",
+      "features": [
+        "Alg_mg_ml",
+        "HA_mg_ml",
+        "Pressure_kPa"
+      ]
+    },
+    "SR": {
+      "feature_set": "rheology_enhanced",
+      "model": "SVR_RBF",
+      "features": [
+        "Alg_mg_ml",
+        "HA_mg_ml",
+        "Pressure_kPa",
+        "TP",
+        "HF",
+        "Alg_HA_ratio_safe",
+        "P_over_TP",
+        "P_over_Alg",
+        "P_over_HA",
+        "Alg_x_HA",
+        "Alg_x_P",
+        "HA_x_P",
+        "TP_x_P",
+        "HF_x_P",
+        "Eta0_mean_Pa_s",
+        "Cross_m_mean",
+        "Cross_k_mean_s",
+        "G_prime_mean_Pa",
+        "G_double_prime_mean_Pa",
+        "Yield_stress_mean_Pa"
+      ]
+    },
+    "Qm": {
+      "feature_set": "engineered",
+      "model": "SVR_RBF",
+      "features": [
+        "Alg_mg_ml",
+        "HA_mg_ml",
+        "Pressure_kPa",
+        "TP",
+        "HF",
+        "Alg_HA_ratio_safe",
+        "P_over_TP",
+        "P_over_Alg",
+        "P_over_HA",
+        "Alg_x_HA",
+        "Alg_x_P",
+        "HA_x_P",
+        "TP_x_P",
+        "HF_x_P"
+      ]
+    },
+    "AF": {
+      "feature_set": "angle_engineered",
+      "model": "XGBoost",
+      "features": [
+        "Alg_mg_ml",
+        "HA_mg_ml",
+        "Pressure_kPa",
+        "TP",
+        "HF",
+        "Alg_HA_ratio_safe",
+        "P_over_TP",
+        "P_over_Alg",
+        "P_over_HA",
+        "Alg_x_HA",
+        "Alg_x_P",
+        "HA_x_P",
+        "TP_x_P",
+        "HF_x_P",
+        "Angle_deg",
+        "P_x_Angle",
+        "Alg_x_Angle",
+        "HA_x_Angle",
+        "TP_x_Angle"
+      ]
+    }
+  },
+  "consensus_score_removed": true,
+  "Pr_excluded_from_rank_agreement": true,
+  "shap_permutation_seed": 42,
+  "notes": [
+    "OOF permutation is computed only on held-out test observations.",
+    "SHAP is reported separately and is not averaged with permutation importance.",
+    "Pr attribution is descriptive only because nested R2 is negative."
+  ]
+}
