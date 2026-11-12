@@ -107,11 +107,7 @@ for i,im in enumerate(thumbs): sheet.paste(im,((i%2)*1030,(i//2)*800))
 sheet.save(FIG/'FigureS7_Clean_SHAP_Beeswarm.png')
 for _,p in bees: p.unlink(missing_ok=True)
 
-# Figure S8: measured-domain unordered candidate set (copy the reviewer-responsive result).
-src = ROOT/'results'/'revision_comments_2_R1_6_7_R2'/'Figure3_Unordered_Candidate_Set_Comments_2-R1_6-7-R2.png'
-shutil.copy2(src, FIG/'FigureS8_Measured_Domain_Candidate_Set.png')
-
-# Figure S9: final duplicate-reduced ablation summary.
+# Figure S8: duplicate-reduced representation sensitivity (former S9; measured-domain map is retained as main Figure 4).
 ablation = pd.read_excel(ROOT/'results'/'revision_comments_6_7_R1_8_R2'/'Ablation_Analysis_Comments_6-7-R1_8-R2.xlsx', sheet_name='Table_S19')
 ablation['Label']=ablation['Target']+' | '+ablation['Validation'].str.replace('_',' ',regex=False)
 x=np.arange(len(ablation)); w=0.38
@@ -119,7 +115,7 @@ fig,ax=plt.subplots(figsize=(12,5.5))
 ax.bar(x-w/2,ablation['Delta_RMSE_core_minus_engineered'],w,label='Delta RMSE')
 ax.bar(x+w/2,ablation['Delta_Spearman_engineered_minus_core'],w,label='Delta Spearman')
 ax.axhline(0,linewidth=0.8); ax.set_xticks(x); ax.set_xticklabels(ablation.Label,rotation=45,ha='right'); ax.set_ylabel('Positive = engineered-side improvement'); ax.set_title('Core-versus-engineered representation sensitivity'); ax.legend()
-fig.tight_layout(); fig.savefig(FIG/'FigureS9_Final_Ablation.png',dpi=300,bbox_inches='tight'); plt.close(fig)
+fig.tight_layout(); fig.savefig(FIG/'FigureS8_Final_Ablation.png',dpi=300,bbox_inches='tight'); plt.close(fig)
 
 # Main Figure 1: updated workflow schematic, intentionally free of the retired causal/ranking claims.
 fig,ax=plt.subplots(figsize=(10,9.88)); ax.set_xlim(0,1); ax.set_ylim(0,1); ax.axis('off')
