@@ -198,8 +198,7 @@ def consolidate_final_revision():
       xfig/'FigureS5_OOF_Permutation_Comments_18-R2.png':fig/'Figure_S5_OOF_Permutation.png',
       xfig/'FigureS6_SHAP_Comments_17-R2_8-R1.png':fig/'Figure_S6_SHAP.png',
       asset/'FigureS7_Clean_SHAP_Beeswarm.png':fig/'Figure_S7_Clean_SHAP_Beeswarm.png',
-      cfig/'Figure3_Unordered_Candidate_Set_Comments_2-R1_6-7-R2.png':fig/'Figure_S8_Measured_Domain_Candidate_Set.png',
-      asset/'FigureS9_Final_Ablation.png':fig/'Figure_S9_Final_Ablation.png',
+      asset/'FigureS8_Final_Ablation.png':fig/'Figure_S8_Final_Ablation.png',
     }
     for src,dst in {**copies,**figcopies}.items():
         if not src.exists(): raise FileNotFoundError(f'Consolidation source missing: {src.relative_to(ROOT)}')
