@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   full-master-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     env:
       OPENBLAS_NUM_THREADS: "1"
@@ -69,7 +69,7 @@ jobs:
             supplementary/final_revision/tables/Table_S24_Table2_vs_TableS16_Reconciliation.csv
 
   independent-master-notebook:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 65
     env:
       OPENBLAS_NUM_THREADS: "1"
