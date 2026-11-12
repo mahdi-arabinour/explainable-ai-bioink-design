@@ -1,0 +1,114 @@
+name: Stage 14 independent reproducibility check
+
+on:
+  push:
+    branches:
+      - release/acs-omega-r1-audit-20261112
+    paths:
+      - .github/workflows/verify-stage14.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  full-master-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      MPLBACKEND: "Agg"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout current working branch
+        uses: actions/checkout@v4
+      - name: Python 3.13.5 pinned environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.5'
+          cache: 'pip'
+      - name: Install exact project dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify dependencies and canonical inputs
+        run: |
+          python -c "import numpy,pandas,scipy,sklearn,xgboost,shap,openpyxl;print('ENV',numpy.__version__,pandas.__version__,scipy.__version__,sklearn.__version__,xgboost.__version__,shap.__version__)"
+          python run_full_analysis.py --preflight-only
+      - name: Run all scientific scripts and Stage 14 publication normalization
+        run: python run_full_analysis.py
+      - name: Verify publication tables and numerical checks
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import csv, json, pandas as pd
+          root=Path('supplementary/final_revision/tables')
+          names=['Table_S16_Ablation.xlsx','Table_S17_Baselines.xlsx','Table_S18_Nested_CV_With_R2_SD.csv','Table_S19_XAI.xlsx','Table_S20_LOFO_Diagnostics.xlsx','Table_S22_Bootstrap_Ranking_Stability.csv','Table_S23_R2_Aggregation.csv','Table_S24_Table2_vs_TableS16_Reconciliation.csv','Table_S25_Dimensionless_Stress_Ratio_Sensitivity.csv','Table_S26_LOFO_Formulation_Block_Uncertainty.csv','Table_S27_Baseline_Comparison.csv','Table_S28_Pr_Threshold_Sensitivity.csv']
+          assert all((root/n).is_file() for n in names), [n for n in names if not (root/n).is_file()]
+          assert not (root/'Table_S6-S8_Nested_Performance.xlsx').exists()
+          assert not (root/'Table_S21_Nested_CV.xlsx').exists()
+          s18=pd.read_csv(root/'Table_S18_Nested_CV_With_R2_SD.csv')
+          assert len(s18)==4
+          assert all(abs(float(s18.loc[s18.Target.eq(t),'Nested_repeated_R2_SD'].iloc[0])-v)<0.0005 for t,v in {'Pr':.928,'SR':.702,'Qm':.238,'AF':.156}.items())
+          checks=pd.read_csv('results/master_run/numerical_validation.csv')
+          assert (checks.status=='PASS').all(),checks.loc[checks.status!='PASS'].to_string()
+          status=json.loads(Path('results/master_run/master_status.json').read_text())
+          assert status['overall']=='PASS'
+          print('COMPLETE',status['overall'],'NUMERICAL',len(checks),'/',len(checks),'SI_TABLES',len(names),'R2_SD',s18[['Target','Nested_repeated_R2_SD']].to_dict('records'))
+          PY
+      - name: Upload verification output and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage14-master-validation-logs
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            results/master_run/
+            supplementary/final_revision/tables/Table_S18_Nested_CV_With_R2_SD.csv
+            supplementary/final_revision/tables/Table_S24_Table2_vs_TableS16_Reconciliation.csv
+
+  independent-master-notebook:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      MPLBACKEND: "Agg"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.5'
+          cache: 'pip'
+      - name: Install exact dependencies and kernel
+        run: |
+          python -m pip install -r requirements.txt
+          python -m pip install ipykernel
+      - name: Run notebook from an independent clean checkout
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import nbformat
+          from nbclient import NotebookClient
+          source=Path('notebooks/00_master_analysis.ipynb')
+          nb=nbformat.read(source,as_version=4)
+          client=NotebookClient(nb,timeout=3600,kernel_name='python3',resources={'metadata':{'path':str(Path.cwd())}},allow_errors=False)
+          output=client.execute()
+          nbformat.write(output,Path('notebooks/00_master_analysis_EXECUTED_STAGE14.ipynb'))
+          count=sum(c.cell_type=='code' for c in output.cells)
+          print('NOTEBOOK COMPLETE: executed',count,'code cells without errors')
+          assert count==19, f'Expected 19 code cells, got {count}'
+          PY
+      - name: Upload notebook audit trail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage14-notebook-audit
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            notebooks/00_master_analysis_EXECUTED_STAGE14.ipynb
+            results/master_run/
