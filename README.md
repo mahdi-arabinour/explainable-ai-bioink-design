@@ -15,7 +15,7 @@ The analysis models four outputs independently:
 - mass flow rate (`Qm`)
 - angular fidelity (`AF`)
 
-The repository includes curated source tables, processed modeling datasets, duplicate-reduced feature engineering, reviewer-requested simple baselines, a dimensionless pressure/yield-stress sensitivity analysis, nested repeated and nested leave-one-formulation-out validation, held-out permutation importance, separate SHAP attribution, unordered measured-domain candidate screening, core-versus-engineered representation sensitivity, explicit Table 2/Table S19 reconciliation, and source-to-repository provenance audit materials.
+The repository includes curated source tables, processed modeling datasets, duplicate-reduced feature engineering, reviewer-requested simple baselines, a dimensionless pressure/yield-stress sensitivity analysis, nested repeated and nested leave-one-formulation-out validation, held-out permutation importance, separate SHAP attribution, unordered measured-domain candidate screening, core-versus-engineered representation sensitivity, explicit Table 2/Table S16 reconciliation, and source-to-repository provenance audit materials.
 
 ## Repository structure
 
@@ -26,8 +26,8 @@ data/processed/            Three curated source tables at release start; derived
 data/source/               Source-data citation and provenance notice
 results/tables/             Main generated result tables
 results/descriptive_figures/ Regenerated SI S1-S2 and manuscript Figure 3 plus exact prediction tables
-supplementary/tables/       Archived numbered CSV/XLSX files supporting Tables S1-S18
-supplementary/final_revision/ Consolidated final revision Tables S6-S8 and S19-S31 plus replacement figures
+supplementary/tables/       Historical numbered CSV/XLSX files; new publication numbering and paths in docs/SUPPLEMENTARY_TABLE_REGISTER.md
+supplementary/final_revision/ Consolidated publication-facing Tables S16-S28 (S21 embedded; old S6-S8 removed as duplicates) plus replacement figures
 supplementary/figures/      Archived supplementary figure files
 supplementary/figures_pdf/  Vector/PDF supplementary figure materials
 docs/                       Cell index, file register, and reproducibility documentation
@@ -91,7 +91,7 @@ The revision package includes a reviewer-requested simple-baseline analysis for 
 
 ## Reviewer revision analysis: Comment 10-R1
 
-The revision tests a dimensionless applied-pressure/yield-stress descriptor before concluding that P/TP should be interpreted only empirically. Run `python src/revision_comment_10_R1_dimensionless_stress_ratio.py`. The script compares P/TP with `P_over_Yield_dimless = Pressure_kPa*1000/Yield_stress_mean_Pa` as fixed single-descriptor linear/power-law baselines for Qm and SR and performs a matched multivariable substitution sensitivity. The dimensionless descriptor remains non-predictive as a stand-alone rule and does not outperform P/TP in the matched engineered representation. Outputs are under `results/revision_comment_10_R1_dimensionless_stress_ratio/` and the compact summary is Supplementary Table S28.
+The revision tests a dimensionless applied-pressure/yield-stress descriptor before concluding that P/TP should be interpreted only empirically. Run `python src/revision_comment_10_R1_dimensionless_stress_ratio.py`. The script compares P/TP with `P_over_Yield_dimless = Pressure_kPa*1000/Yield_stress_mean_Pa` as fixed single-descriptor linear/power-law baselines for Qm and SR and performs a matched multivariable substitution sensitivity. The dimensionless descriptor remains non-predictive as a stand-alone rule and does not outperform P/TP in the matched engineered representation. Outputs are under `results/revision_comment_10_R1_dimensionless_stress_ratio/` and the compact summary is Supplementary Table S25.
 
 ## Reviewer revision analysis: Comments 4-R1 and 16-R2
 
@@ -103,14 +103,14 @@ The repeated analysis uses 20 repetitions of outer five-fold cross-validation wi
 
 ## Reviewer revision analysis: Comments 6-R1 and 8-R2
 
-Table 2 and Table S19 answer different questions. Table 2 reports selection-aware nested outer-test performance. Table S19 preserves the submitted core-versus-engineered model identities after duplicate-feature cleanup. Six of eight S19 target-validation comparisons use the same algorithm and can be interpreted as feature-representation sensitivity conditional on that algorithm; Pr LOFO and SR repeated K-fold use different algorithms and therefore reflect combined model-plus-representation changes. Run `python src/revision_comment_6_R1_reconciliation.py` after the S19 script to generate the row-by-row reconciliation used in Supplementary Table S27. Then run `python src/revision_comment_8_R2_reconciliation_audit.py` to verify all eight S27 rows against the archived nested and S19 outputs; this audit performs no model fitting.
+Table 2 and Table S16 answer different questions. Table 2 reports selection-aware nested outer-test performance. Table S16 preserves the submitted core-versus-engineered model identities after duplicate-feature cleanup. Six of eight S19 target-validation comparisons use the same algorithm and can be interpreted as feature-representation sensitivity conditional on that algorithm; Pr LOFO and SR repeated K-fold use different algorithms and therefore reflect combined model-plus-representation changes. Run `python src/revision_comment_6_R1_reconciliation.py` after the S19 script to generate the row-by-row reconciliation used in Supplementary Table S24. Then run `python src/revision_comment_8_R2_reconciliation_audit.py` to verify all eight S27 rows against the archived nested and S19 outputs; this audit performs no model fitting.
 
 ## Reviewer revision analysis: Comments 12-R1 and 9-R2
 The revision package includes formulation-level uncertainty reporting for the nested LOFO analysis. Run:
 
 `python src/revision_comments_12_R1_9_R2_lofo_uncertainty.py`
 
-The script does not refit models. It summarizes the already-computed nested LOFO outer-fold results from Comments 4-R1/16-R2, exports the full per-formulation diagnostics, and performs a 10,000-replicate formulation-block bootstrap of the fixed outer predictions. The bootstrap resamples the eight held-out formulation blocks with replacement and preserves all observations within a sampled block. It therefore quantifies evaluation-sample uncertainty conditional on the nested-LOFO predictions rather than full training-procedure uncertainty. Supplementary Table S29 reports all-target bootstrap intervals and delete-one-formulation pooled-R2 sensitivity; SR shows pooled R2 = 0.393, bootstrap 95% interval 0.179-0.537, and delete-one R2 range 0.315-0.445, alongside heterogeneous formulation-specific R2 values (-2.218 to 0.485).
+The script does not refit models. It summarizes the already-computed nested LOFO outer-fold results from Comments 4-R1/16-R2, exports the full per-formulation diagnostics, and performs a 10,000-replicate formulation-block bootstrap of the fixed outer predictions. The bootstrap resamples the eight held-out formulation blocks with replacement and preserves all observations within a sampled block. It therefore quantifies evaluation-sample uncertainty conditional on the nested-LOFO predictions rather than full training-procedure uncertainty. Supplementary Table S26 reports all-target bootstrap intervals and delete-one-formulation pooled-R2 sensitivity; SR shows pooled R2 = 0.393, bootstrap 95% interval 0.179-0.537, and delete-one R2 range 0.315-0.445, alongside heterogeneous formulation-specific R2 values (-2.218 to 0.485).
 
 
 ### Reviewer candidate-set revision (Comments 2-R1 and 6-7-R2)
@@ -124,7 +124,7 @@ See `FINAL_REVISION_README.md` and `RUN_ORDER.md` for the authoritative reviewer
 
 ## Reviewer-requested model-complexity controls
 
-Simple AF/Qm baselines are generated by `src/revision_comment_3_R2_baselines.py`. A matched incremental-value audit in `src/revision_comment_3_R2_baseline_contrast.py` compares those held-out predictions with the nested multivariable outer predictions using the same repeat-pooled aggregation. The resulting Table S30 distinguishes geometry-dominated AF from the clear within-domain multivariable gain observed for Qm.
+Simple AF/Qm baselines are generated by `src/revision_comment_3_R2_baselines.py`. A matched incremental-value audit in `src/revision_comment_3_R2_baseline_contrast.py` compares those held-out predictions with the nested multivariable outer predictions using the same repeat-pooled aggregation. The resulting Table S27 distinguishes geometry-dominated AF from the clear within-domain multivariable gain observed for Qm.
 
 
 ### Comment 17-R2 XAI audit
@@ -137,3 +137,5 @@ The revised XAI workflow reports held-out permutation importance and SHAP separa
 ## Stage 12 clean-room certification status
 
 **FULL CLEAN-ROOM PASS.** The final Master Runner completed from a fresh extraction with 50/50 mandatory numerical checks passing. The Master Notebook independently completed 19/19 code cells from a separate fresh extraction with no errors. Runner/notebook scientific outputs reconciled with zero discrepancies. See `CLEAN_ROOM_REPRODUCIBILITY_REPORT.md`.
+
+Publication-facing table identifiers are now **S1-S28**. See [the full updated table register](docs/SUPPLEMENTARY_TABLE_REGISTER.md). The former S6-S8 performance/selection tables have been consolidated in S18 with their unique fold-R2 SD values retained. Historical `results/` paths, code filenames and older release records still carry original identifiers as provenance; they should not be interpreted as live SI table numbers. This change is staged on the working branch and requires a fresh end-to-end verification before a new version release.
