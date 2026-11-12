@@ -49,7 +49,7 @@ CORE_STEPS = [
     ('P07 LOFO uncertainty', 'src/revision_comments_12_R1_9_R2_lofo_uncertainty.py'),
     ('P08 XAI', 'src/revision_comments_8_R1_17_18_R2_xai.py'),
     ('P10 representation sensitivity', 'src/revision_comments_6_7_R1_8_R2_ablation_selected.py'),
-    ('P11 Table2-S19 reconciliation', 'src/revision_comment_6_R1_reconciliation.py'),
+    ('P11 representation-reconciliation analysis', 'src/revision_comment_6_R1_reconciliation.py'),
     ('P12 reconciliation audit', 'src/revision_comment_8_R2_reconciliation_audit.py'),
     ('P13 candidate set', 'src/revision_comments_2_R1_6_7_R2_candidate_set.py'),
     ('P14 Pr threshold sensitivity', 'src/revision_comment_7_R2_pr_gate_sensitivity.py'),
@@ -287,7 +287,7 @@ def main():
     ap.add_argument('--preflight-only',action='store_true')
     ap.add_argument('--dry-run',action='store_true',help='Show the canonical order without executing scientific steps.')
     ap.add_argument('--no-clean',action='store_true',help='Do not delete generated outputs before execution. Not permitted for final clean-room certification.')
-    ap.add_argument('--provenance-pdf',type=Path,default=None,help='Optional local Perin Supporting Information PDF for Table S24 audit.')
+    ap.add_argument('--provenance-pdf',type=Path,default=None,help='Optional local Perin Supporting Information PDF for the publication-facing Table S21 provenance audit.')
     args=ap.parse_args()
     if Path.cwd().resolve()!=ROOT:
         print(f'ERROR: run from repository root: {ROOT}',file=sys.stderr); return 2
@@ -305,6 +305,7 @@ def main():
             log('DRY RUN P18 SI consolidation')
             log('DRY RUN P09 XAI audits after consolidation')
             log('DRY RUN P19 numerical validation')
+            log('DRY RUN P20 SI table publication renumbering')
             status['overall']='DRY_RUN_PASS'; STATUS_JSON.write_text(json.dumps(status,indent=2),encoding='utf-8'); return 0
         if not args.no_clean: clean_generated()
         else: log('WARNING --no-clean used; this run cannot certify a final clean-room state.')
@@ -325,6 +326,9 @@ def main():
         status['steps'].append(run_script('P09a XAI final-artifact audit','src/revision_comment_17_R2_xai_audit.py'))
         status['steps'].append(run_script('P09b OOF permutation final-artifact audit','src/revision_comment_18_R2_oof_permutation_audit.py'))
         checks=numerical_validation(); status['numerical_validation']=checks
+        # Keep historical paths during the existing audit checks; only then normalize
+        # publication-facing SI table identifiers from S6-S8/S19-S31 to S16-S28.
+        status['steps'].append(run_script('P20 SI table publication renumbering', 'src/publication_si_table_renumber.py'))
         status['environment']=environment_info()
         status['overall']='PASS'; status['end_time']=time.time(); status['runtime_seconds']=status['end_time']-status['start_time']
         STATUS_JSON.write_text(json.dumps(status,indent=2),encoding='utf-8')
