@@ -24,4 +24,6 @@ Complete these items before making the repository public and creating the immuta
 - [x] Renumbered publication-facing SI to S1-S28; reconciled manuscript, SI register, response-letter references, repository filenames and explanatory documentation.
 - [x] Added `docs/SI_TABLE_RENUMBERING_STAGE14.csv` for the full original-to-current mapping.
 - [x] Updated the canonical runner to normalize published SI files after scientific validation; retained original archives/results.
-- [ ] Rerun the entire analysis and all current audits in a fresh pinned environment and verify output hashes/Word references before issuing the new GitHub or Zenodo release. The current revision branch is **not yet a certified scientific release**.
+- [x] Rerun the complete scientific pipeline in a clean checkout with pinned Python 3.13.5 and dependencies: 50/50 numerical checks PASS, publication SI table normalization PASS, and an independent notebook run 19/19 cells PASS. [Execution report](docs/STAGE14_CLEANROOM_RUN_2026-11-12.md).
+- [ ] Complete final DOCX/EndNote/figure cross-reference synchronization against the regenerated S1-S28 tables and archive outputs after all remaining editorial revisions.
+- [ ] Review and merge the working branch; create a new versioned GitHub/Zenodo release only after final approval. No new release has been published by the test.
